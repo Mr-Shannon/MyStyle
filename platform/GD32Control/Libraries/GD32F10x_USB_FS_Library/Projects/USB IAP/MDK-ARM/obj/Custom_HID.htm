@@ -1,0 +1,1273 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [.\obj\Custom_HID.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image .\obj\Custom_HID.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5050106: Last Updated: Tue Mar 08 22:28:34 2016
+<BR><P>
+<H3>Maximum Stack Usage =        124 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+USBINT_LPST &rArr; USBD_SetupStage &rArr; USBD_DevClsReq &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[33]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[33]">MemManage_Handler</a><BR>
+ <LI><a href="#[34]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[34]">BusFault_Handler</a><BR>
+ <LI><a href="#[35]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[35]">UsageFault_Handler</a><BR>
+ <LI><a href="#[37]">DebugMon_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[37]">DebugMon_Handler</a><BR>
+ <LI><a href="#[4c]">ADC1_2_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4c]">ADC1_2_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[4c]">ADC1_2_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[69]">ADC3_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[34]">BusFault_Handler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[4f]">CAN1_RX1_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[50]">CAN1_SCE_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[45]">DMA1_Channel1_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[46]">DMA1_Channel2_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[47]">DMA1_Channel3_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[48]">DMA1_Channel4_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[49]">DMA1_Channel5_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[4a]">DMA1_Channel6_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[4b]">DMA1_Channel7_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[72]">DMA2_Channel1_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[73]">DMA2_Channel2_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[74]">DMA2_Channel3_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[75]">DMA2_Channel4_5_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[37]">DebugMon_Handler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[6a]">EXMC_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[40]">EXTI0_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[62]">EXTI15_10_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[41]">EXTI1_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[42]">EXTI2_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[43]">EXTI3_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[44]">EXTI4_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[51]">EXTI9_5_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[3e]">FMC_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[11]">Flash_If_CheckAddr</a> from usbd_flash_if.o(i.Flash_If_CheckAddr) referenced 2 times from usbd_flash_if.o(.data)
+ <LI><a href="#[d]">Flash_If_DeInit</a> from usbd_flash_if.o(i.Flash_If_DeInit) referenced 2 times from usbd_flash_if.o(.data)
+ <LI><a href="#[e]">Flash_If_Erase</a> from usbd_flash_if.o(i.Flash_If_Erase) referenced 2 times from usbd_flash_if.o(.data)
+ <LI><a href="#[c]">Flash_If_Init</a> from usbd_flash_if.o(i.Flash_If_Init) referenced 2 times from usbd_flash_if.o(.data)
+ <LI><a href="#[10]">Flash_If_Read</a> from usbd_flash_if.o(i.Flash_If_Read) referenced 2 times from usbd_flash_if.o(.data)
+ <LI><a href="#[f]">Flash_If_Write</a> from usbd_flash_if.o(i.Flash_If_Write) referenced 2 times from usbd_flash_if.o(.data)
+ <LI><a href="#[32]">HardFault_Handler</a> from gd32_it.o(i.HardFault_Handler) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[5a]">I2C1_ER_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[59]">I2C1_EV_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[5c]">I2C2_ER_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[5b]">I2C2_EV_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[3b]">LVD_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[33]">MemManage_Handler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[31]">NMI_Handler</a> from gd32_it.o(i.NMI_Handler) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[38]">PendSV_Handler</a> from gd32_it.o(i.PendSV_Handler) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[3f]">RCC_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[63]">RTCAlarm_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[3d]">RTC_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[30]">Reset_Handler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[6b]">SDIO_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[5d]">SPI1_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[5e]">SPI2_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[6d]">SPI3_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[36]">SVC_Handler</a> from gd32_it.o(i.SVC_Handler) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[39]">SysTick_Handler</a> from gd32_it.o(i.SysTick_Handler) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[77]">SystemInit</a> from system_gd32f10x.o(i.SystemInit) referenced from startup_gd32f10x_hd.o(.text)
+ <LI><a href="#[3c]">TAMPER_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[52]">TIMER1_BRK_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[55]">TIMER1_CC_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[54]">TIMER1_TRG_COM_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[53]">TIMER1_UP_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[56]">TIMER2_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[57]">TIMER3_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[58]">TIMER4_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[6c]">TIMER5_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[70]">TIMER6_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[71]">TIMER7_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[65]">TIMER8_BRK_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[68]">TIMER8_CC_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[67]">TIMER8_TRG_COM_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[66]">TIMER8_UP_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[6e]">UART4_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[6f]">UART5_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[5f]">USART1_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[60]">USART2_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[61]">USART3_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[15]">USBD_CUSTOMHID_ClassReqHandle</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_ClassReqHandle) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[18]">USBD_CUSTOMHID_DataIn</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_DataIn) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[19]">USBD_CUSTOMHID_DataOut</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_DataOut) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[13]">USBD_CUSTOMHID_DeInit</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_DeInit) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[1a]">USBD_CUSTOMHID_GetCfgDesc</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_GetCfgDesc) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[14]">USBD_CUSTOMHID_GetClassDescriptor</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_GetClassDescriptor) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[16]">USBD_CUSTOMHID_GetInterface</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_GetInterface) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[12]">USBD_CUSTOMHID_Init</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_Init) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[17]">USBD_CUSTOMHID_SetInterface</a> from usbd_iap_core.o(i.USBD_CUSTOMHID_SetInterface) referenced 2 times from usbd_iap_core.o(.data)
+ <LI><a href="#[1c]">USBD_ClearFeature</a> from usbd_enum.o(i.USBD_ClearFeature) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[22]">USBD_GetConfiguration</a> from usbd_enum.o(i.USBD_GetConfiguration) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[20]">USBD_GetDescriptor</a> from usbd_enum.o(i.USBD_GetDescriptor) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[24]">USBD_GetInterface</a> from usbd_enum.o(i.USBD_GetInterface) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[1b]">USBD_GetStatus</a> from usbd_enum.o(i.USBD_GetStatus) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[1d]">USBD_Reserved</a> from usbd_enum.o(i.USBD_Reserved) referenced 4 times from usbd_enum.o(.data)
+ <LI><a href="#[1f]">USBD_SetAddress</a> from usbd_enum.o(i.USBD_SetAddress) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[23]">USBD_SetConfiguration</a> from usbd_enum.o(i.USBD_SetConfiguration) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[21]">USBD_SetDescriptor</a> from usbd_enum.o(i.USBD_SetDescriptor) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[1e]">USBD_SetFeature</a> from usbd_enum.o(i.USBD_SetFeature) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[25]">USBD_SetInterface</a> from usbd_enum.o(i.USBD_SetInterface) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[26]">USBD_SynchFrame</a> from usbd_enum.o(i.USBD_SynchFrame) referenced 2 times from usbd_enum.o(.data)
+ <LI><a href="#[5]">USBD_USER_ConfigStrDesc</a> from usbd_desc.o(i.USBD_USER_ConfigStrDesc) referenced 2 times from usbd_desc.o(.data)
+ <LI><a href="#[0]">USBD_USER_DevDesc</a> from usbd_desc.o(i.USBD_USER_DevDesc) referenced 2 times from usbd_desc.o(.data)
+ <LI><a href="#[9]">USBD_USER_DeviceConfigured</a> from usbd_user.o(i.USBD_USER_DeviceConfigured) referenced 2 times from usbd_user.o(.data)
+ <LI><a href="#[7]">USBD_USER_DeviceInit</a> from usbd_user.o(i.USBD_USER_DeviceInit) referenced 2 times from usbd_user.o(.data)
+ <LI><a href="#[8]">USBD_USER_DeviceReset</a> from usbd_user.o(i.USBD_USER_DeviceReset) referenced 2 times from usbd_user.o(.data)
+ <LI><a href="#[b]">USBD_USER_DeviceResumed</a> from usbd_user.o(i.USBD_USER_DeviceResumed) referenced 2 times from usbd_user.o(.data)
+ <LI><a href="#[a]">USBD_USER_DeviceSuspended</a> from usbd_user.o(i.USBD_USER_DeviceSuspended) referenced 2 times from usbd_user.o(.data)
+ <LI><a href="#[6]">USBD_USER_ItfStrDesc</a> from usbd_desc.o(i.USBD_USER_ItfStrDesc) referenced 2 times from usbd_desc.o(.data)
+ <LI><a href="#[1]">USBD_USER_LANGIDStrDesc</a> from usbd_desc.o(i.USBD_USER_LANGIDStrDesc) referenced 2 times from usbd_desc.o(.data)
+ <LI><a href="#[2]">USBD_USER_MFCStrDesc</a> from usbd_desc.o(i.USBD_USER_MFCStrDesc) referenced 2 times from usbd_desc.o(.data)
+ <LI><a href="#[3]">USBD_USER_ProdStrDesc</a> from usbd_desc.o(i.USBD_USER_ProdStrDesc) referenced 2 times from usbd_desc.o(.data)
+ <LI><a href="#[4]">USBD_USER_SerialStrDesc</a> from usbd_desc.o(i.USBD_USER_SerialStrDesc) referenced 2 times from usbd_desc.o(.data)
+ <LI><a href="#[2d]">USBINT_ESOF</a> from usbd_it.o(i.USBINT_ESOF) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[2a]">USBINT_Error</a> from usbd_it.o(i.USBINT_Error) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[27]">USBINT_HPST</a> from usbd_it.o(i.USBINT_HPST) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[28]">USBINT_LPST</a> from usbd_it.o(i.USBINT_LPST) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[29]">USBINT_PMOU</a> from usbd_it.o(i.USBINT_PMOU) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[2b]">USBINT_Reset</a> from usbd_it.o(i.USBINT_Reset) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[2c]">USBINT_SOF</a> from usbd_it.o(i.USBINT_SOF) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[2e]">USBINT_Suspend</a> from usbd_it.o(i.USBINT_Suspend) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[2f]">USBINT_WakeUp</a> from usbd_it.o(i.USBINT_WakeUp) referenced 2 times from usbd_it.o(.data)
+ <LI><a href="#[64]">USBWakeUp_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[4d]">USB_HP_CAN1_TX_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[4e]">USB_LP_CAN1_RX0_IRQHandler</a> from gd32_it.o(i.USB_LP_CAN1_RX0_IRQHandler) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[35]">UsageFault_Handler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[3a]">WWDG_IRQHandler</a> from startup_gd32f10x_hd.o(.text) referenced from startup_gd32f10x_hd.o(RESET)
+ <LI><a href="#[78]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_gd32f10x_hd.o(.text)
+ <LI><a href="#[76]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[78]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(.text)
+</UL>
+<P><STRONG><a name="[c4]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[79]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[7b]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[7a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[c5]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[c6]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[c7]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[c8]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000D))
+
+<P><STRONG><a name="[c9]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[30]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[33]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[34]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[35]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[37]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[4c]"></a>ADC1_2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC1_2_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[69]"></a>ADC3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[4f]"></a>CAN1_RX1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[50]"></a>CAN1_SCE_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[45]"></a>DMA1_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[46]"></a>DMA1_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>DMA1_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[48]"></a>DMA1_Channel4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[49]"></a>DMA1_Channel5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[4a]"></a>DMA1_Channel6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[4b]"></a>DMA1_Channel7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[72]"></a>DMA2_Channel1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[73]"></a>DMA2_Channel2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[74]"></a>DMA2_Channel3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[75]"></a>DMA2_Channel4_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[6a]"></a>EXMC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[40]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[62]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[41]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[42]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[43]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[44]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[51]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[3e]"></a>FMC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[5a]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[59]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[5c]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[5b]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[3b]"></a>LVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[3f]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[63]"></a>RTCAlarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[3d]"></a>RTC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[6b]"></a>SDIO_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[5d]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[5e]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[6d]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[3c]"></a>TAMPER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[52]"></a>TIMER1_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[55]"></a>TIMER1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[54]"></a>TIMER1_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[53]"></a>TIMER1_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[56]"></a>TIMER2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[57]"></a>TIMER3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[58]"></a>TIMER4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[6c]"></a>TIMER5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[70]"></a>TIMER6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[71]"></a>TIMER7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[65]"></a>TIMER8_BRK_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[68]"></a>TIMER8_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[67]"></a>TIMER8_TRG_COM_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[66]"></a>TIMER8_UP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[6e]"></a>UART4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[6f]"></a>UART5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[5f]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[60]"></a>USART2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[61]"></a>USART3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[64]"></a>USBWakeUp_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[4d]"></a>USB_HP_CAN1_TX_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[3a]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_gd32f10x_hd.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[7a]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[7b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[79]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[ca]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[cb]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[cc]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[b9]"></a>BufferCopyToUser</STRONG> (Thumb, 34 bytes, Stack size 20 bytes, usb_buf.o(i.BufferCopyToUser))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = BufferCopyToUser
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_LPST
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_HPST
+</UL>
+
+<P><STRONG><a name="[ad]"></a>DR_Init</STRONG> (Thumb, 40 bytes, Stack size 0 bytes, usb_core.o(i.DR_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Init
+</UL>
+
+<P><STRONG><a name="[8a]"></a>EXTI_ClearIntBitState</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, gd32f10x_exti.o(i.EXTI_ClearIntBitState))
+<BR><BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyInit
+</UL>
+
+<P><STRONG><a name="[89]"></a>EXTI_Init</STRONG> (Thumb, 142 bytes, Stack size 0 bytes, gd32f10x_exti.o(i.EXTI_Init))
+<BR><BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyInit
+</UL>
+
+<P><STRONG><a name="[7c]"></a>FMC_ErasePage</STRONG> (Thumb, 66 bytes, Stack size 12 bytes, gd32f10x_fmc.o(i.FMC_ErasePage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = FMC_ErasePage &rArr; FMC_WaitReady
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_WaitReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_If_Erase
+</UL>
+
+<P><STRONG><a name="[7f]"></a>FMC_GetState</STRONG> (Thumb, 48 bytes, Stack size 0 bytes, gd32f10x_fmc.o(i.FMC_GetState))
+<BR><BR>[Called By]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_WaitReady
+</UL>
+
+<P><STRONG><a name="[80]"></a>FMC_Lock</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, gd32f10x_fmc.o(i.FMC_Lock))
+<BR><BR>[Called By]<UL><LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_If_DeInit
+</UL>
+
+<P><STRONG><a name="[7e]"></a>FMC_ProgramWord</STRONG> (Thumb, 58 bytes, Stack size 16 bytes, gd32f10x_fmc.o(i.FMC_ProgramWord))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = FMC_ProgramWord &rArr; FMC_WaitReady
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_WaitReady
+</UL>
+<BR>[Called By]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_If_Write
+</UL>
+
+<P><STRONG><a name="[81]"></a>FMC_Unlock</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, gd32f10x_fmc.o(i.FMC_Unlock))
+<BR><BR>[Called By]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_If_Write
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Flash_If_Init
+</UL>
+
+<P><STRONG><a name="[7d]"></a>FMC_WaitReady</STRONG> (Thumb, 34 bytes, Stack size 4 bytes, gd32f10x_fmc.o(i.FMC_WaitReady))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = FMC_WaitReady
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_GetState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_ProgramWord
+<LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_ErasePage
+</UL>
+
+<P><STRONG><a name="[b8]"></a>FreeUserBuffer</STRONG> (Thumb, 72 bytes, Stack size 8 bytes, usb_buf.o(i.FreeUserBuffer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = FreeUserBuffer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_HPST
+</UL>
+
+<P><STRONG><a name="[82]"></a>GD_EVAL_KeyGetState</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, gd32103c_eval.o(i.GD_EVAL_KeyGetState))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GD_EVAL_KeyGetState
+</UL>
+<BR>[Calls]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputBit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[84]"></a>GD_EVAL_KeyInit</STRONG> (Thumb, 148 bytes, Stack size 32 bytes, gd32103c_eval.o(i.GD_EVAL_KeyInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = GD_EVAL_KeyInit &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClock_Enable
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Init
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+<LI><a href="#[87]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_EXTILineConfig
+<LI><a href="#[89]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_Init
+<LI><a href="#[8a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI_ClearIntBitState
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[87]"></a>GPIO_EXTILineConfig</STRONG> (Thumb, 146 bytes, Stack size 8 bytes, gd32f10x_gpio.o(i.GPIO_EXTILineConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = GPIO_EXTILineConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyInit
+</UL>
+
+<P><STRONG><a name="[86]"></a>GPIO_Init</STRONG> (Thumb, 278 bytes, Stack size 24 bytes, gd32f10x_gpio.o(i.GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_Init
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyInit
+</UL>
+
+<P><STRONG><a name="[83]"></a>GPIO_ReadInputBit</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, gd32f10x_gpio.o(i.GPIO_ReadInputBit))
+<BR><BR>[Called By]<UL><LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyGetState
+</UL>
+
+<P><STRONG><a name="[bc]"></a>GPIO_ResetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32f10x_gpio.o(i.GPIO_ResetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Cable_Config
+</UL>
+
+<P><STRONG><a name="[bb]"></a>GPIO_SetBits</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32f10x_gpio.o(i.GPIO_SetBits))
+<BR><BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Cable_Config
+</UL>
+
+<P><STRONG><a name="[ac]"></a>Get_SerialString</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, usbd_desc.o(i.Get_SerialString))
+<BR><BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Init
+</UL>
+
+<P><STRONG><a name="[32]"></a>HardFault_Handler</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, gd32_it.o(i.HardFault_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[9a]"></a>IAP_MAL_DeInit</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, usbd_iap_mal.o(i.IAP_MAL_DeInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = IAP_MAL_DeInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_DeInit
+</UL>
+
+<P><STRONG><a name="[8b]"></a>IAP_MAL_Erase</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, usbd_iap_mal.o(i.IAP_MAL_Erase))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = IAP_MAL_Erase &rArr; IAP_MAL_CheckAddr
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_CheckAddr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_ERASE
+</UL>
+
+<P><STRONG><a name="[9d]"></a>IAP_MAL_Init</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, usbd_iap_mal.o(i.IAP_MAL_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = IAP_MAL_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_Init
+</UL>
+
+<P><STRONG><a name="[8d]"></a>IAP_MAL_Write</STRONG> (Thumb, 82 bytes, Stack size 24 bytes, usbd_iap_mal.o(i.IAP_MAL_Write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = IAP_MAL_Write &rArr; IAP_MAL_CheckAddr
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_CheckAddr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_DNLOAD
+</UL>
+
+<P><STRONG><a name="[31]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, gd32_it.o(i.NMI_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[88]"></a>NVIC_Init</STRONG> (Thumb, 192 bytes, Stack size 16 bytes, gd32f10x_misc.o(i.NVIC_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = NVIC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_USBINTConfig
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyInit
+</UL>
+
+<P><STRONG><a name="[c2]"></a>NVIC_PRIGroup_Enable</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, gd32f10x_misc.o(i.NVIC_PRIGroup_Enable))
+<BR><BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_USBINTConfig
+</UL>
+
+<P><STRONG><a name="[38]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, gd32_it.o(i.PendSV_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[bf]"></a>RCC_APB1PeriphClock_Enable</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, gd32f10x_rcc.o(i.RCC_APB1PeriphClock_Enable))
+<BR><BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_ClockConfig
+</UL>
+
+<P><STRONG><a name="[85]"></a>RCC_APB2PeriphClock_Enable</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, gd32f10x_rcc.o(i.RCC_APB2PeriphClock_Enable))
+<BR><BR>[Called By]<UL><LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_Init
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyInit
+</UL>
+
+<P><STRONG><a name="[be]"></a>RCC_USBCLKConfig</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, gd32f10x_rcc.o(i.RCC_USBCLKConfig))
+<BR><BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_ClockConfig
+</UL>
+
+<P><STRONG><a name="[36]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, gd32_it.o(i.SVC_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[39]"></a>SysTick_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, gd32_it.o(i.SysTick_Handler))
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[77]"></a>SystemInit</STRONG> (Thumb, 72 bytes, Stack size 8 bytes, system_gd32f10x.o(i.SystemInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = SystemInit &rArr; SetSysClock &rArr; SetSysClockTo72
+</UL>
+<BR>[Calls]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(.text)
+</UL>
+<P><STRONG><a name="[8f]"></a>USBD_CUSTOMHID_SendReport</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_SendReport))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = USBD_CUSTOMHID_SendReport &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_OptionByte
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_DNLOAD
+</UL>
+
+<P><STRONG><a name="[b1]"></a>USBD_ClrCfg</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, usbd_core.o(i.USBD_ClrCfg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_ClrCfg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetConfiguration
+</UL>
+
+<P><STRONG><a name="[a0]"></a>USBD_Connect</STRONG> (Thumb, 16 bytes, Stack size 8 bytes, usbd_core.o(i.USBD_Connect))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_Connect &rArr; USB_Cable_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Cable_Config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[a2]"></a>USBD_DataInStage</STRONG> (Thumb, 194 bytes, Stack size 16 bytes, usbd_core.o(i.USBD_DataInStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = USBD_DataInStage &rArr; USB_CtlContinueTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_SetAddress
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlReceiveStatus
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlContinueTx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_LPST
+</UL>
+
+<P><STRONG><a name="[a6]"></a>USBD_DataOutStage</STRONG> (Thumb, 132 bytes, Stack size 16 bytes, usbd_core.o(i.USBD_DataOutStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = USBD_DataOutStage &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTransmitStatus
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlContinueRx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_LPST
+</UL>
+
+<P><STRONG><a name="[ab]"></a>USBD_DeInit</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd_core.o(i.USBD_DeInit))
+<BR><BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Init
+</UL>
+
+<P><STRONG><a name="[a8]"></a>USBD_DevClsReq</STRONG> (Thumb, 70 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_DevClsReq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = USBD_DevClsReq &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTransmitStatus
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+</UL>
+
+<P><STRONG><a name="[97]"></a>USBD_EnumError</STRONG> (Thumb, 16 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_EnumError))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = USBD_EnumError &rArr; USB_EP_Stall
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Stall
+</UL>
+<BR>[Called By]<UL><LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_DataOut
+<LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_ClassReqHandle
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetInterface
+<LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetFeature
+<LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetConfiguration
+<LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetAddress
+<LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetStatus
+<LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetInterface
+<LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetDescriptor
+<LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetConfiguration
+<LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClearFeature
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DevClsReq
+</UL>
+
+<P><STRONG><a name="[b6]"></a>USBD_GetUnicodeString</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_GetUnicodeString))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_GetUnicodeString
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_USER_ProdStrDesc
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_USER_MFCStrDesc
+<LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_USER_ItfStrDesc
+<LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_USER_ConfigStrDesc
+</UL>
+
+<P><STRONG><a name="[aa]"></a>USBD_Init</STRONG> (Thumb, 50 bytes, Stack size 24 bytes, usbd_core.o(i.USBD_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USBD_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Get_SerialString
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DeInit
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DR_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[b3]"></a>USBD_ParseSetupRequest</STRONG> (Thumb, 44 bytes, Stack size 0 bytes, usbd_enum.o(i.USBD_ParseSetupRequest))
+<BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+</UL>
+
+<P><STRONG><a name="[ae]"></a>USBD_Resume</STRONG> (Thumb, 150 bytes, Stack size 8 bytes, usbd_pwr.o(i.USBD_Resume))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBD_Resume
+</UL>
+<BR>[Calls]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ResumeMCU
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_WakeUp
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_Suspend
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_ESOF
+</UL>
+
+<P><STRONG><a name="[b0]"></a>USBD_SetCfg</STRONG> (Thumb, 26 bytes, Stack size 16 bytes, usbd_core.o(i.USBD_SetCfg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_SetCfg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetConfiguration
+</UL>
+
+<P><STRONG><a name="[b2]"></a>USBD_SetupStage</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, usbd_core.o(i.USBD_SetupStage))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = USBD_SetupStage &rArr; USBD_DevClsReq &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_VdrDefReq
+<LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_StdReq
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ParseSetupRequest
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DevClsReq
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Stall
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_LPST
+</UL>
+
+<P><STRONG><a name="[b4]"></a>USBD_StdReq</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_StdReq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBD_StdReq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+</UL>
+
+<P><STRONG><a name="[ba]"></a>USBD_Suspend</STRONG> (Thumb, 16 bytes, Stack size 0 bytes, usbd_pwr.o(i.USBD_Suspend))
+<BR><BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_Suspend
+</UL>
+
+<P><STRONG><a name="[5]"></a>USBD_USER_ConfigStrDesc</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, usbd_desc.o(i.USBD_USER_ConfigStrDesc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_USER_ConfigStrDesc &rArr; USBD_GetUnicodeString
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetUnicodeString
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_desc.o(.data)
+</UL>
+<P><STRONG><a name="[0]"></a>USBD_USER_DevDesc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, usbd_desc.o(i.USBD_USER_DevDesc))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_desc.o(.data)
+</UL>
+<P><STRONG><a name="[9]"></a>USBD_USER_DeviceConfigured</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_user.o(i.USBD_USER_DeviceConfigured))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_user.o(.data)
+</UL>
+<P><STRONG><a name="[7]"></a>USBD_USER_DeviceInit</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_user.o(i.USBD_USER_DeviceInit))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_user.o(.data)
+</UL>
+<P><STRONG><a name="[8]"></a>USBD_USER_DeviceReset</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_user.o(i.USBD_USER_DeviceReset))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_user.o(.data)
+</UL>
+<P><STRONG><a name="[b]"></a>USBD_USER_DeviceResumed</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_user.o(i.USBD_USER_DeviceResumed))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_user.o(.data)
+</UL>
+<P><STRONG><a name="[a]"></a>USBD_USER_DeviceSuspended</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_user.o(i.USBD_USER_DeviceSuspended))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_user.o(.data)
+</UL>
+<P><STRONG><a name="[6]"></a>USBD_USER_ItfStrDesc</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, usbd_desc.o(i.USBD_USER_ItfStrDesc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_USER_ItfStrDesc &rArr; USBD_GetUnicodeString
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetUnicodeString
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_desc.o(.data)
+</UL>
+<P><STRONG><a name="[1]"></a>USBD_USER_LANGIDStrDesc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, usbd_desc.o(i.USBD_USER_LANGIDStrDesc))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_desc.o(.data)
+</UL>
+<P><STRONG><a name="[2]"></a>USBD_USER_MFCStrDesc</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, usbd_desc.o(i.USBD_USER_MFCStrDesc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_USER_MFCStrDesc &rArr; USBD_GetUnicodeString
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetUnicodeString
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_desc.o(.data)
+</UL>
+<P><STRONG><a name="[3]"></a>USBD_USER_ProdStrDesc</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, usbd_desc.o(i.USBD_USER_ProdStrDesc))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_USER_ProdStrDesc &rArr; USBD_GetUnicodeString
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetUnicodeString
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_desc.o(.data)
+</UL>
+<P><STRONG><a name="[4]"></a>USBD_USER_SerialStrDesc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, usbd_desc.o(i.USBD_USER_SerialStrDesc))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_desc.o(.data)
+</UL>
+<P><STRONG><a name="[b5]"></a>USBD_VdrDefReq</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd_enum.o(i.USBD_VdrDefReq))
+<BR><BR>[Called By]<UL><LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+</UL>
+
+<P><STRONG><a name="[a1]"></a>USB_Cable_Config</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, usb_hwp.o(i.USB_Cable_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_Cable_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Connect
+</UL>
+
+<P><STRONG><a name="[a7]"></a>USB_CtlContinueRx</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, usb_core.o(i.USB_CtlContinueRx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USB_CtlContinueRx &rArr; USB_EP_Rx
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Rx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataOutStage
+</UL>
+
+<P><STRONG><a name="[a3]"></a>USB_CtlContinueTx</STRONG> (Thumb, 24 bytes, Stack size 16 bytes, usb_core.o(i.USB_CtlContinueTx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = USB_CtlContinueTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+</UL>
+
+<P><STRONG><a name="[a4]"></a>USB_CtlReceiveStatus</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, usb_core.o(i.USB_CtlReceiveStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USB_CtlReceiveStatus &rArr; USB_EP_Rx
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Rx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+</UL>
+
+<P><STRONG><a name="[96]"></a>USB_CtlRx</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, usb_core.o(i.USB_CtlRx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USB_CtlRx &rArr; USB_EP_Rx
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Rx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_ClassReqHandle
+</UL>
+
+<P><STRONG><a name="[9e]"></a>USB_CtlTransmitStatus</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, usb_core.o(i.USB_CtlTransmitStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetFeature
+<LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetConfiguration
+<LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetAddress
+<LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClearFeature
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DevClsReq
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataOutStage
+</UL>
+
+<P><STRONG><a name="[95]"></a>USB_CtlTx</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, usb_core.o(i.USB_CtlTx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = USB_CtlTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[16]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_GetInterface
+<LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_GetClassDescriptor
+<LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_ClassReqHandle
+<LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetStatus
+<LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetDescriptor
+<LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_GetConfiguration
+</UL>
+
+<P><STRONG><a name="[9b]"></a>USB_EP_BufConfig</STRONG> (Thumb, 144 bytes, Stack size 20 bytes, usb_core.o(i.USB_EP_BufConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USB_EP_BufConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_Init
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_Reset
+</UL>
+
+<P><STRONG><a name="[9f]"></a>USB_EP_ClrStall</STRONG> (Thumb, 198 bytes, Stack size 20 bytes, usb_core.o(i.USB_EP_ClrStall))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USB_EP_ClrStall
+</UL>
+<BR>[Called By]<UL><LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClearFeature
+</UL>
+
+<P><STRONG><a name="[99]"></a>USB_EP_DeInit</STRONG> (Thumb, 402 bytes, Stack size 16 bytes, usb_core.o(i.USB_EP_DeInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USB_EP_DeInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_DeInit
+</UL>
+
+<P><STRONG><a name="[9c]"></a>USB_EP_Init</STRONG> (Thumb, 722 bytes, Stack size 24 bytes, usb_core.o(i.USB_EP_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USB_EP_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_Init
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_Reset
+</UL>
+
+<P><STRONG><a name="[98]"></a>USB_EP_Rx</STRONG> (Thumb, 412 bytes, Stack size 24 bytes, usb_core.o(i.USB_EP_Rx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USB_EP_Rx
+</UL>
+<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlRx
+<LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_Init
+<LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_DataOut
+<LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_LPST
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlReceiveStatus
+<LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlContinueRx
+</UL>
+
+<P><STRONG><a name="[a5]"></a>USB_EP_SetAddress</STRONG> (Thumb, 54 bytes, Stack size 12 bytes, usb_core.o(i.USB_EP_SetAddress))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = USB_EP_SetAddress
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_Reset
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+</UL>
+
+<P><STRONG><a name="[a9]"></a>USB_EP_Stall</STRONG> (Thumb, 150 bytes, Stack size 20 bytes, usb_core.o(i.USB_EP_Stall))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = USB_EP_Stall
+</UL>
+<BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+<LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetFeature
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+</UL>
+
+<P><STRONG><a name="[91]"></a>USB_EP_Tx</STRONG> (Thumb, 224 bytes, Stack size 32 bytes, usb_core.o(i.USB_EP_Tx))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UserCopyToBuffer
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FreeUserBuffer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTx
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_SendReport
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_ERASE
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTransmitStatus
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlContinueTx
+</UL>
+
+<P><STRONG><a name="[bd]"></a>USB_HWP_ClockConfig</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, usb_hwp.o(i.USB_HWP_ClockConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USB_HWP_ClockConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_USBCLKConfig
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB1PeriphClock_Enable
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c0]"></a>USB_HWP_Init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, usb_hwp.o(i.USB_HWP_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USB_HWP_Init &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[85]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;RCC_APB2PeriphClock_Enable
+<LI><a href="#[86]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c1]"></a>USB_HWP_USBINTConfig</STRONG> (Thumb, 42 bytes, Stack size 8 bytes, usb_hwp.o(i.USB_HWP_USBINTConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USB_HWP_USBINTConfig &rArr; NVIC_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_PRIGroup_Enable
+<LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c3]"></a>USB_Ifr</STRONG> (Thumb, 282 bytes, Stack size 16 bytes, usb_int.o(i.USB_Ifr))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USB_Ifr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_LP_CAN1_RX0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[4e]"></a>USB_LP_CAN1_RX0_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, gd32_it.o(i.USB_LP_CAN1_RX0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = USB_LP_CAN1_RX0_IRQHandler &rArr; USB_Ifr
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_Ifr
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_gd32f10x_hd.o(RESET)
+</UL>
+<P><STRONG><a name="[b7]"></a>UserCopyToBuffer</STRONG> (Thumb, 44 bytes, Stack size 20 bytes, usb_buf.o(i.UserCopyToBuffer))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = UserCopyToBuffer
+</UL>
+<BR>[Called By]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBINT_HPST
+</UL>
+
+<P><STRONG><a name="[cd]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[ce]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[cf]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[76]"></a>main</STRONG> (Thumb, 100 bytes, Stack size 0 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = main &rArr; GD_EVAL_KeyInit &rArr; GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_USBINTConfig
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_Init
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_HWP_ClockConfig
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Init
+<LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Connect
+<LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyInit
+<LI><a href="#[82]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GD_EVAL_KeyGetState
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL><P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[11]"></a>Flash_If_CheckAddr</STRONG> (Thumb, 22 bytes, Stack size 0 bytes, usbd_flash_if.o(i.Flash_If_CheckAddr))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_flash_if.o(.data)
+</UL>
+<P><STRONG><a name="[d]"></a>Flash_If_DeInit</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usbd_flash_if.o(i.Flash_If_DeInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Flash_If_DeInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[80]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_Lock
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_flash_if.o(.data)
+</UL>
+<P><STRONG><a name="[e]"></a>Flash_If_Erase</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, usbd_flash_if.o(i.Flash_If_Erase))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = Flash_If_Erase &rArr; FMC_ErasePage &rArr; FMC_WaitReady
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_ErasePage
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_flash_if.o(.data)
+</UL>
+<P><STRONG><a name="[c]"></a>Flash_If_Init</STRONG> (Thumb, 10 bytes, Stack size 8 bytes, usbd_flash_if.o(i.Flash_If_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = Flash_If_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_Unlock
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_flash_if.o(.data)
+</UL>
+<P><STRONG><a name="[10]"></a>Flash_If_Read</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_flash_if.o(i.Flash_If_Read))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_flash_if.o(.data)
+</UL>
+<P><STRONG><a name="[f]"></a>Flash_If_Write</STRONG> (Thumb, 72 bytes, Stack size 24 bytes, usbd_flash_if.o(i.Flash_If_Write))
+<BR><BR>[Stack]<UL><LI>Max Depth = 44<LI>Call Chain = Flash_If_Write &rArr; FMC_ProgramWord &rArr; FMC_WaitReady
+</UL>
+<BR>[Calls]<UL><LI><a href="#[81]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_Unlock
+<LI><a href="#[7e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FMC_ProgramWord
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_flash_if.o(.data)
+</UL>
+<P><STRONG><a name="[8e]"></a>IAP_Req_DNLOAD</STRONG> (Thumb, 88 bytes, Stack size 8 bytes, usbd_iap_core.o(i.IAP_Req_DNLOAD))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = IAP_Req_DNLOAD &rArr; USBD_CUSTOMHID_SendReport &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_Write
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_SendReport
+</UL>
+<BR>[Called By]<UL><LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_DataOut
+</UL>
+
+<P><STRONG><a name="[90]"></a>IAP_Req_ERASE</STRONG> (Thumb, 190 bytes, Stack size 8 bytes, usbd_iap_core.o(i.IAP_Req_ERASE))
+<BR><BR>[Stack]<UL><LI>Max Depth = 60<LI>Call Chain = IAP_Req_ERASE &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Tx
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_Erase
+</UL>
+<BR>[Called By]<UL><LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_DataOut
+</UL>
+
+<P><STRONG><a name="[92]"></a>IAP_Req_OptionByte</STRONG> (Thumb, 46 bytes, Stack size 16 bytes, usbd_iap_core.o(i.IAP_Req_OptionByte))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = IAP_Req_OptionByte &rArr; USBD_CUSTOMHID_SendReport &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_SendReport
+</UL>
+<BR>[Called By]<UL><LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_CUSTOMHID_DataOut
+</UL>
+
+<P><STRONG><a name="[15]"></a>USBD_CUSTOMHID_ClassReqHandle</STRONG> (Thumb, 118 bytes, Stack size 16 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_ClassReqHandle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = USBD_CUSTOMHID_ClassReqHandle &rArr; USB_CtlTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTx
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlRx
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[18]"></a>USBD_CUSTOMHID_DataIn</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_DataIn))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[19]"></a>USBD_CUSTOMHID_DataOut</STRONG> (Thumb, 94 bytes, Stack size 16 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_DataOut))
+<BR><BR>[Stack]<UL><LI>Max Depth = 100<LI>Call Chain = USBD_CUSTOMHID_DataOut &rArr; IAP_Req_OptionByte &rArr; USBD_CUSTOMHID_SendReport &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Rx
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_OptionByte
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_ERASE
+<LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_Req_DNLOAD
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[13]"></a>USBD_CUSTOMHID_DeInit</STRONG> (Thumb, 30 bytes, Stack size 16 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_DeInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBD_CUSTOMHID_DeInit &rArr; USB_EP_DeInit
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_DeInit
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_DeInit
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[1a]"></a>USBD_CUSTOMHID_GetCfgDesc</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_GetCfgDesc))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[14]"></a>USBD_CUSTOMHID_GetClassDescriptor</STRONG> (Thumb, 80 bytes, Stack size 24 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_GetClassDescriptor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = USBD_CUSTOMHID_GetClassDescriptor &rArr; USB_CtlTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTx
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[16]"></a>USBD_CUSTOMHID_GetInterface</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_GetInterface))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = USBD_CUSTOMHID_GetInterface &rArr; USB_CtlTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTx
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[12]"></a>USBD_CUSTOMHID_Init</STRONG> (Thumb, 78 bytes, Stack size 16 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = USBD_CUSTOMHID_Init &rArr; USB_EP_Rx
+</UL>
+<BR>[Calls]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Rx
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Init
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_BufConfig
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_Init
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[17]"></a>USBD_CUSTOMHID_SetInterface</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, usbd_iap_core.o(i.USBD_CUSTOMHID_SetInterface))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_iap_core.o(.data)
+</UL>
+<P><STRONG><a name="[8c]"></a>IAP_MAL_CheckAddr</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, usbd_iap_mal.o(i.IAP_MAL_CheckAddr))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = IAP_MAL_CheckAddr
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_Write
+<LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;IAP_MAL_Erase
+</UL>
+
+<P><STRONG><a name="[1c]"></a>USBD_ClearFeature</STRONG> (Thumb, 200 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_ClearFeature))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = USBD_ClearFeature &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_ClrStall
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTransmitStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[22]"></a>USBD_GetConfiguration</STRONG> (Thumb, 68 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_GetConfiguration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 84<LI>Call Chain = USBD_GetConfiguration &rArr; USB_CtlTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTx
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[20]"></a>USBD_GetDescriptor</STRONG> (Thumb, 296 bytes, Stack size 24 bytes, usbd_enum.o(i.USBD_GetDescriptor))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = USBD_GetDescriptor &rArr; USB_CtlTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTx
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[24]"></a>USBD_GetInterface</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_GetInterface))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USBD_GetInterface &rArr; USBD_EnumError &rArr; USB_EP_Stall
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[1b]"></a>USBD_GetStatus</STRONG> (Thumb, 244 bytes, Stack size 24 bytes, usbd_enum.o(i.USBD_GetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 92<LI>Call Chain = USBD_GetStatus &rArr; USB_CtlTx &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTx
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[1d]"></a>USBD_Reserved</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_enum.o(i.USBD_Reserved))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[1f]"></a>USBD_SetAddress</STRONG> (Thumb, 74 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_SetAddress))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = USBD_SetAddress &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTransmitStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[23]"></a>USBD_SetConfiguration</STRONG> (Thumb, 174 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_SetConfiguration))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = USBD_SetConfiguration &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+<LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetCfg
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_ClrCfg
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTransmitStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[21]"></a>USBD_SetDescriptor</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_enum.o(i.USBD_SetDescriptor))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[1e]"></a>USBD_SetFeature</STRONG> (Thumb, 180 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_SetFeature))
+<BR><BR>[Stack]<UL><LI>Max Depth = 76<LI>Call Chain = USBD_SetFeature &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Stall
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_CtlTransmitStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[25]"></a>USBD_SetInterface</STRONG> (Thumb, 62 bytes, Stack size 16 bytes, usbd_enum.o(i.USBD_SetInterface))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USBD_SetInterface &rArr; USBD_EnumError &rArr; USB_EP_Stall
+</UL>
+<BR>[Calls]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_EnumError
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[26]"></a>USBD_SynchFrame</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, usbd_enum.o(i.USBD_SynchFrame))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_enum.o(.data)
+</UL>
+<P><STRONG><a name="[2d]"></a>USBINT_ESOF</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, usbd_it.o(i.USBINT_ESOF))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBINT_ESOF &rArr; USBD_Resume
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Resume
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[2a]"></a>USBINT_Error</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd_it.o(i.USBINT_Error))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[27]"></a>USBINT_HPST</STRONG> (Thumb, 538 bytes, Stack size 32 bytes, usbd_it.o(i.USBINT_HPST))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = USBINT_HPST &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UserCopyToBuffer
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;FreeUserBuffer
+<LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BufferCopyToUser
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[28]"></a>USBINT_LPST</STRONG> (Thumb, 346 bytes, Stack size 32 bytes, usbd_it.o(i.USBINT_LPST))
+<BR><BR>[Stack]<UL><LI>Max Depth = 124<LI>Call Chain = USBINT_LPST &rArr; USBD_SetupStage &rArr; USBD_DevClsReq &rArr; USB_CtlTransmitStatus &rArr; USB_EP_Tx &rArr; UserCopyToBuffer
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BufferCopyToUser
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Rx
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_SetupStage
+<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataOutStage
+<LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_DataInStage
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[29]"></a>USBINT_PMOU</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, usbd_it.o(i.USBINT_PMOU))
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[2b]"></a>USBINT_Reset</STRONG> (Thumb, 76 bytes, Stack size 8 bytes, usbd_it.o(i.USBINT_Reset))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = USBINT_Reset &rArr; USB_EP_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_Init
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_BufConfig
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USB_EP_SetAddress
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[2c]"></a>USBINT_SOF</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, usbd_it.o(i.USBINT_SOF))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = USBINT_SOF
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[2e]"></a>USBINT_Suspend</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, usbd_it.o(i.USBINT_Suspend))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBINT_Suspend &rArr; USBD_Resume
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Suspend
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Resume
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[2f]"></a>USBINT_WakeUp</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, usbd_it.o(i.USBINT_WakeUp))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = USBINT_WakeUp &rArr; USBD_Resume
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Resume
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> usbd_it.o(.data)
+</UL>
+<P><STRONG><a name="[af]"></a>ResumeMCU</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, usbd_pwr.o(i.ResumeMCU))
+<BR><BR>[Called By]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USBD_Resume
+</UL>
+
+<P><STRONG><a name="[93]"></a>SetSysClock</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, system_gd32f10x.o(i.SetSysClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = SetSysClock &rArr; SetSysClockTo72
+</UL>
+<BR>[Calls]<UL><LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClockTo72
+</UL>
+<BR>[Called By]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemInit
+</UL>
+
+<P><STRONG><a name="[94]"></a>SetSysClockTo72</STRONG> (Thumb, 186 bytes, Stack size 12 bytes, system_gd32f10x.o(i.SetSysClockTo72))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SetSysClockTo72
+</UL>
+<BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SetSysClock
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

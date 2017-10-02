@@ -1,0 +1,973 @@
+Dependencies for Project 'usbd_vcp', Target 'GD32F103C_USBD_VCP': (DO NOT MODIFY !)
+F (..\src\app.c)(0x54DC120A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\app.o --omf_browse .\gd32f103c-obj\app.crf --depend .\gd32f103c-obj\app.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\inc\usbd_cdc_vcp.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_user.h)(0x54DC1209)
+F (..\src\usbd_desc.c)(0x54DC120A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_desc.o --omf_browse .\gd32f103c-obj\usbd_desc.crf --depend .\gd32f103c-obj\usbd_desc.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+F (..\src\usbd_cdc_vcp.c)(0x54DC120A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_cdc_vcp.o --omf_browse .\gd32f103c-obj\usbd_cdc_vcp.crf --depend .\gd32f103c-obj\usbd_cdc_vcp.d)
+I (..\inc\usbd_cdc_vcp.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+F (..\src\usbd_user.c)(0x54DC120A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_user.o --omf_browse .\gd32f103c-obj\usbd_user.crf --depend .\gd32f103c-obj\usbd_user.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_user.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+F (..\src\gd32_it.c)(0x54DC120A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32_it.o --omf_browse .\gd32f103c-obj\gd32_it.crf --depend .\gd32f103c-obj\gd32_it.d)
+I (..\inc\gd32_it.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\inc\usbd_cdc_vcp.h)(0x54DC120A)
+F (..\src\usb_hwp.c)(0x54DC120A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usb_hwp.o --omf_browse .\gd32f103c-obj\usb_hwp.crf --depend .\gd32f103c-obj\usb_hwp.d)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (..\..\..\Libraries\GD32_USB_Device_Driver\src\usb_buf.c)(0x550F73AB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usb_buf.o --omf_browse .\gd32f103c-obj\usb_buf.crf --depend .\gd32f103c-obj\usb_buf.d)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+F (..\..\..\Libraries\GD32_USB_Device_Driver\src\usb_core.c)(0x550F73AB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usb_core.o --omf_browse .\gd32f103c-obj\usb_core.crf --depend .\gd32f103c-obj\usb_core.d)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (..\..\..\Libraries\GD32_USB_Device_Driver\src\usb_int.c)(0x54DC1206)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usb_int.o --omf_browse .\gd32f103c-obj\usb_int.crf --depend .\gd32f103c-obj\usb_int.d)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+F (..\..\..\Libraries\GD32_USB_Device_Library\Core\src\usbd_core.c)(0x550F73AB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_core.o --omf_browse .\gd32f103c-obj\usbd_core.crf --depend .\gd32f103c-obj\usbd_core.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+F (..\..\..\Libraries\GD32_USB_Device_Library\Core\src\usbd_enum.c)(0x54DC1209)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_enum.o --omf_browse .\gd32f103c-obj\usbd_enum.crf --depend .\gd32f103c-obj\usbd_enum.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+F (..\..\..\Libraries\GD32_USB_Device_Library\Core\src\usbd_it.c)(0x54DC1209)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_it.o --omf_browse .\gd32f103c-obj\usbd_it.crf --depend .\gd32f103c-obj\usbd_it.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+F (..\..\..\Libraries\GD32_USB_Device_Library\Core\src\usbd_pwr.c)(0x550F73AB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_pwr.o --omf_browse .\gd32f103c-obj\usbd_pwr.crf --depend .\gd32f103c-obj\usbd_pwr.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+F (..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\src\usbd_cdc_core.c)(0x550F73AB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\usbd_cdc_core.o --omf_browse .\gd32f103c-obj\usbd_cdc_core.crf --depend .\gd32f103c-obj\usbd_cdc_core.d)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc\usbd_cdc_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_desc.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_core.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_buf.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_regs.h)(0x550F73AB)
+I (..\inc\usb_conf.h)(0x56DEE2E9)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_def.h)(0x54DC1209)
+I (..\inc\usbd_conf.h)(0x54DC120A)
+I (D:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5475F300)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_enum.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_core.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_int.h)(0x54DC1207)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_it.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Library\Core\inc\usbd_pwr.h)(0x54DC1209)
+I (..\..\..\Libraries\GD32_USB_Device_Driver\inc\usb_hwp.h)(0x54DC1207)
+I (..\inc\usbd_cdc_vcp.h)(0x54DC120A)
+F (..\..\..\Libraries\CMSIS\system_gd32f10x.c)(0x56DEDF88)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\system_gd32f10x.o --omf_browse .\gd32f103c-obj\system_gd32f10x.crf --depend .\gd32f103c-obj\system_gd32f10x.d)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\StartUp\startup_gd32f10x_hd.s)(0x54DC1207)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x--pd "__UVISION_VERSION SETA 514"--list .\gd32f103c-eval\startup_gd32f10x_hd.lst -o .\gd32f103c-obj\startup_gd32f10x_hd.o --depend .\gd32f103c-obj\startup_gd32f10x_hd.d)
+F (..\..\..\Libraries\StartUp\startup_gd32f10x_md.s)(0x54DC1207)()
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_dma.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_dma.o --omf_browse .\gd32f103c-obj\gd32f10x_dma.crf --depend .\gd32f103c-obj\gd32f10x_dma.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_exti.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_exti.o --omf_browse .\gd32f103c-obj\gd32f10x_exti.crf --depend .\gd32f103c-obj\gd32f10x_exti.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_gpio.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_gpio.o --omf_browse .\gd32f103c-obj\gd32f10x_gpio.crf --depend .\gd32f103c-obj\gd32f10x_gpio.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_misc.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_misc.o --omf_browse .\gd32f103c-obj\gd32f10x_misc.crf --depend .\gd32f103c-obj\gd32f10x_misc.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_pwr.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_pwr.o --omf_browse .\gd32f103c-obj\gd32f10x_pwr.crf --depend .\gd32f103c-obj\gd32f10x_pwr.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_rcc.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_rcc.o --omf_browse .\gd32f103c-obj\gd32f10x_rcc.crf --depend .\gd32f103c-obj\gd32f10x_rcc.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_sdio.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_sdio.o --omf_browse .\gd32f103c-obj\gd32f10x_sdio.crf --depend .\gd32f103c-obj\gd32f10x_sdio.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_spi.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_spi.o --omf_browse .\gd32f103c-obj\gd32f10x_spi.crf --depend .\gd32f103c-obj\gd32f10x_spi.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\src\gd32f10x_usart.c)(0x54DC1207)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32f10x_usart.o --omf_browse .\gd32f103c-obj\gd32f10x_usart.crf --depend .\gd32f103c-obj\gd32f10x_usart.d)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Utilities\GD32_EVAL\GD32103B_EVAL\gd32103b_eval.c)(0x54DC1206)()
+F (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.c)(0x54DC1206)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\inc -I..\..\..\Libraries\GD32_USB_Device_Driver\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Core\inc -I..\..\..\Libraries\GD32_USB_Device_Library\Class\cdc\inc -I..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL -I..\..\..\Libraries\CMSIS -I..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc -ID:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\CMSIS\Include-I D:\Keil_v5\ARM\Inc\GD\GD32F10x-D__UVISION_VERSION="514" -DUSE_STDPERIPH_DRIVER -DGD32F10X_HD -DUSE_GD32F103C_EVAL -DGD32F10X_HD-o .\gd32f103c-obj\gd32103c_eval.o --omf_browse .\gd32f103c-obj\gd32103c_eval.crf --depend .\gd32f103c-obj\gd32103c_eval.d)
+I (..\..\..\Utilities\GD32_EVAL\GD32103C_EVAL\gd32103c_eval.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\gd32f10x.h)(0x54DC1206)
+I (..\..\..\Libraries\CMSIS\core_cm3.h)(0x54DC1206)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5475F300)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FEF2AA)
+I (D:\Keil_v5\ARM\Pack\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FEF2AA)
+I (..\..\..\Libraries\CMSIS\system_GD32F10X.h)(0x54DC1206)
+I (..\inc\gd32f10x_conf.h)(0x54DC120A)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_adc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_bkp.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_can.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_crc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dac.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_dma.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_eth.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_exti.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_fmc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_gpio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_i2c.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_iwdg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_mcudbg.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_misc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_pwr.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rcc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_rtc.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_spi.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_sdio.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_timer.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_usart.h)(0x54DC1208)
+I (..\..\..\Libraries\GD32F10x_StdPeriph_Driver\inc\gd32f10x_wwdg.h)(0x54DC1208)
+F (..\..\..\Utilities\GD32_EVAL\GD32103E_EVAL\gd32103e_eval.c)(0x54DC1206)()
