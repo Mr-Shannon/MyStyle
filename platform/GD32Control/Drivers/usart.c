@@ -22,6 +22,8 @@
 #include "board.h"
 #include <rtdevice.h>
 
+
+
 /* GD32 uart driver */
 struct gd32_uart
 {
