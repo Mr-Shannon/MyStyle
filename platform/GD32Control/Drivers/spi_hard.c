@@ -370,3 +370,47 @@ rt_err_t gd32_spi_register(SPI_TypeDef * SPI,
 
     return rt_spi_bus_register(&gd32_spi->parent, spi_bus_name, &gd32_spi_ops);
 }
+#define RT_USING_SPI1
+static void rt_hw_spi_init(void)
+{
+#ifdef RT_USING_SPI1
+    /* register spi bus */
+    {
+        static struct gd32_spi_bus gd32_spi;
+        GPIO_InitPara GPIO_InitStruct;
+
+        /* Enable GPIO clock */
+        RCC_APB2PeriphClock_Enable(RCC_APB2PERIPH_GPIOA | RCC_APB2PERIPH_AF,
+        ENABLE);
+
+        GPIO_InitStruct.GPIO_Pin   = GPIO_PIN_5 | GPIO_PIN_6 | GPIO_PIN_7;
+        GPIO_InitStruct.GPIO_Speed = GPIO_SPEED_50MHZ;
+        GPIO_InitStruct.GPIO_Mode  = GPIO_MODE_AF_PP;
+        GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+        gd32_spi_register(SPI1, &gd32_spi, "spi1");
+    }
+
+    /* attach cs */
+    {
+        static struct rt_spi_device spi_device;
+        static struct gd32_spi_cs  spi_cs;
+
+        GPIO_InitPara GPIO_InitStruct;
+
+        GPIO_InitStruct.GPIO_Speed = GPIO_SPEED_10MHZ;
+        GPIO_InitStruct.GPIO_Mode = GPIO_MODE_OUT_PP;
+
+        /* spi21: PG10 */
+        spi_cs.GPIOx = GPIOA;
+        spi_cs.GPIO_Pin = GPIO_PIN_4;
+        RCC_APB2PeriphClock_Enable(RCC_APB2PERIPH_GPIOA, ENABLE);
+
+        GPIO_InitStruct.GPIO_Pin = spi_cs.GPIO_Pin;
+        GPIO_SetBits(spi_cs.GPIOx, spi_cs.GPIO_Pin);
+        GPIO_Init(spi_cs.GPIOx, &GPIO_InitStruct);
+
+        rt_spi_bus_attach_device(&spi_device, "spi10", "spi1", (void*)&spi_cs);
+    }
+#endif /* RT_USING_SPI1 */
+}
