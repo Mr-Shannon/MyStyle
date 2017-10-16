@@ -1,5 +1,5 @@
-#ifndef __SPI_HARD_H__
-#define __SPI_HARD_H__
+#ifndef __SPI_HW_H__
+#define __SPI_HW_H__
 
 #include <rtdevice.h>
 
@@ -34,5 +34,7 @@ struct gd32_spi_cs
 rt_err_t gd32_spi_register(SPI_TypeDef * SPI,
                             struct gd32_spi_bus * gd32_spi,
                             const char * spi_bus_name);
+                            
+void rt_hw_spi_init(void);
 
 #endif // gd32_SPI_H_INCLUDED

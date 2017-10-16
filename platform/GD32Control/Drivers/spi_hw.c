@@ -1,4 +1,4 @@
-#include "spi_hard.h"
+#include "spi_hw.h"
 
 static rt_err_t configure(struct rt_spi_device* device, struct rt_spi_configuration* configuration);
 static rt_uint32_t xfer(struct rt_spi_device* device, struct rt_spi_message* message);
@@ -370,10 +370,12 @@ rt_err_t gd32_spi_register(SPI_TypeDef * SPI,
 
     return rt_spi_bus_register(&gd32_spi->parent, spi_bus_name, &gd32_spi_ops);
 }
+
 #define RT_USING_SPI1
-static void rt_hw_spi_init(void)
+
+void rt_hw_spi_init(void)
 {
-#ifdef RT_USING_SPI1
+//#ifdef RT_USING_SPI1
     /* register spi bus */
     {
         static struct gd32_spi_bus gd32_spi;
@@ -412,5 +414,5 @@ static void rt_hw_spi_init(void)
 
         rt_spi_bus_attach_device(&spi_device, "spi10", "spi1", (void*)&spi_cs);
     }
-#endif /* RT_USING_SPI1 */
+//#endif /* RT_USING_SPI1 */
 }
