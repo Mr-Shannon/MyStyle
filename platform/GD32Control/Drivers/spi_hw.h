@@ -30,6 +30,7 @@ struct gd32_spi_cs
     uint16_t GPIO_Pin;
 };
 
+
 /* public function list */
 rt_err_t gd32_spi_register(SPI_TypeDef * SPI,
                             struct gd32_spi_bus * gd32_spi,

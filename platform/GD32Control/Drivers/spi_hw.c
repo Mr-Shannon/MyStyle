@@ -1,12 +1,12 @@
 #include "spi_hw.h"
 
-static rt_err_t configure(struct rt_spi_device* device, struct rt_spi_configuration* configuration);
-static rt_uint32_t xfer(struct rt_spi_device* device, struct rt_spi_message* message);
+static rt_err_t gd32_configure(struct rt_spi_device* device, struct rt_spi_configuration* configuration);
+static rt_uint32_t gd32_xfer(struct rt_spi_device* device, struct rt_spi_message* message);
 
 static struct rt_spi_ops gd32_spi_ops =
 {
-    configure,
-    xfer
+    gd32_configure,
+    gd32_xfer,
 };
 
 #ifdef USING_SPI1
@@ -136,7 +136,7 @@ rt_inline uint16_t get_spi_BaudRatePrescaler(rt_uint32_t max_hz)
     return SPI_BaudRatePrescaler;
 }
 
-static rt_err_t configure(struct rt_spi_device* device, struct rt_spi_configuration* configuration)
+static rt_err_t gd32_configure(struct rt_spi_device* device, struct rt_spi_configuration* configuration)
 {
     struct gd32_spi_bus * gd32_spi_bus = (struct gd32_spi_bus *)device->bus;
     SPI_InitPara SPI_InitStruct;
@@ -194,12 +194,12 @@ static rt_err_t configure(struct rt_spi_device* device, struct rt_spi_configurat
     SPI_Init(gd32_spi_bus->SPI, &SPI_InitStruct);
     /* Enable SPI_MASTER */
     SPI_Enable(gd32_spi_bus->SPI, ENABLE);
-    SPI_Enable(gd32_spi_bus->SPI, DISABLE);
+//    SPI_Enable(gd32_spi_bus->SPI, DISABLE);
 
     return RT_EOK;
 };
 
-static rt_uint32_t xfer(struct rt_spi_device* device, struct rt_spi_message* message)
+static rt_uint32_t gd32_xfer(struct rt_spi_device* device, struct rt_spi_message* message)
 {
     struct gd32_spi_bus * gd32_spi_bus = (struct gd32_spi_bus *)device->bus;
     struct rt_spi_configuration * config = &device->config;
@@ -397,13 +397,12 @@ void rt_hw_spi_init(void)
     {
         static struct rt_spi_device spi_device;
         static struct gd32_spi_cs  spi_cs;
-
+      
         GPIO_InitPara GPIO_InitStruct;
 
         GPIO_InitStruct.GPIO_Speed = GPIO_SPEED_10MHZ;
         GPIO_InitStruct.GPIO_Mode = GPIO_MODE_OUT_PP;
 
-        /* spi21: PG10 */
         spi_cs.GPIOx = GPIOA;
         spi_cs.GPIO_Pin = GPIO_PIN_4;
         RCC_APB2PeriphClock_Enable(RCC_APB2PERIPH_GPIOA, ENABLE);

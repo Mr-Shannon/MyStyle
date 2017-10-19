@@ -839,8 +839,9 @@ static void enc28j60(void)
                spi_read(spi_device, EIR),
                spi_read(spi_device, EIE));
 
-    rt_kprintf("MAC  : MACON1 MACON3 MACON4\n");
-    rt_kprintf("       0x%02X   0x%02X   0x%02X\n",
+    rt_kprintf("MAC  : MACON1 MACON2 MACON3 MACON4\n");
+    rt_kprintf("       0x%02X   0x%02X   0x%02X   0x%02X\n",
+               spi_read(spi_device, MACON1),
                spi_read(spi_device, MACON1),
                spi_read(spi_device, MACON3),
                spi_read(spi_device, MACON4));

@@ -122,32 +122,32 @@ int rt_application_init(void)
   else 
     rt_thread_detach (&led1_thread);
 
-//  /* init led2 thread */
-//  result = rt_thread_init(&led2_thread, 
-//                          "led2", 
-//                          led2_thread_entry,
-//                          RT_NULL,
-//                         (rt_uint8_t*)&led2_stack[0], 
-//                          sizeof(led2_stack), 
-//                          10, 
-//                          5);
-//  if (result == RT_EOK)
-//    rt_thread_startup(&led2_thread);  
-//  else 
-//    rt_thread_detach (&led2_thread);
+  /* init led2 thread */
+  result = rt_thread_init(&led2_thread, 
+                          "led2", 
+                          led2_thread_entry,
+                          RT_NULL,
+                         (rt_uint8_t*)&led2_stack[0], 
+                          sizeof(led2_stack), 
+                          10, 
+                          5);
+  if (result == RT_EOK)
+    rt_thread_startup(&led2_thread);  
+  else 
+    rt_thread_detach (&led2_thread);
 
-//  /* init led3 thread */
-//  led3_thread = rt_thread_create("led3", 
-//                                  led3_thread_entry,
-//                                  (void*)3, 
-//                                  256, 
-//                                  25, 
-//                                  5); 
-//                
-//  if(led3_thread != RT_NULL)
-//    rt_thread_startup(led3_thread);
-//  else 
-//    rt_thread_delete(led3_thread);
+  /* init led3 thread */
+  led3_thread = rt_thread_create("led3", 
+                                  led3_thread_entry,
+                                  (void*)3, 
+                                  256, 
+                                  25, 
+                                  5); 
+                
+  if(led3_thread != RT_NULL)
+    rt_thread_startup(led3_thread);
+  else 
+    rt_thread_delete(led3_thread);
   
   init_thread = rt_thread_create("init",
                                   rt_init_thread_entry, 

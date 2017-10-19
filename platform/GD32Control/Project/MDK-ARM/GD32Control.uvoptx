@@ -146,40 +146,7 @@
           <Name>UL2CM3(-S0 -C0 -P0 -FD20000000 -FC1000 -FN2 -FF0GD32F10x_MD -FS08000000 -FL020000 -FF1GD32F10x_FMC_OB -FS11FFFF800 -FL110 -FP0($$Device:GD32F103RB$Flash\GD32F10x_MD.FLM) -FP1($$Device:GD32F103RB$Flash\GD32F10x_FMC_OB.FLM))</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
-      <Breakpoint>
-        <Bp>
-          <Number>0</Number>
-          <Type>0</Type>
-          <LineNumber>772</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134233004</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\..\..\..\components\drivers\spi\enc28j60.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\GD32Control\../../../../components/drivers/spi/enc28j60.c\772</Expression>
-        </Bp>
-        <Bp>
-          <Number>1</Number>
-          <Type>0</Type>
-          <LineNumber>305</LineNumber>
-          <EnabledFlag>1</EnabledFlag>
-          <Address>134273790</Address>
-          <ByteObject>0</ByteObject>
-          <HtxType>0</HtxType>
-          <ManyObjects>0</ManyObjects>
-          <SizeOfObject>0</SizeOfObject>
-          <BreakByAccess>0</BreakByAccess>
-          <BreakIfRCount>1</BreakIfRCount>
-          <Filename>..\..\..\..\components\drivers\spi\spi_core.c</Filename>
-          <ExecCommand></ExecCommand>
-          <Expression>\\GD32Control\../../../../components/drivers/spi/spi_core.c\305</Expression>
-        </Bp>
-      </Breakpoint>
+      <Breakpoint/>
       <Tracepoint>
         <THDelay>0</THDelay>
       </Tracepoint>
