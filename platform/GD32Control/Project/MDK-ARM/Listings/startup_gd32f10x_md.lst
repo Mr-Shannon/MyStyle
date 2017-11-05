@@ -525,10 +525,12 @@ ARM Macro Assembler    Page 9
 
 
 ork --depend=.\objects\startup_gd32f10x_md.d -o.\objects\startup_gd32f10x_md.o 
--I.\RTE\_RT-Thread -Id:\Keil_v5\ARM\PACK\Keil\GD32F1xx_DFP\1.1.0\Device\GD32F10
-x\Include -Id:\Keil_v5\ARM\CMSIS\Include --predefine="__UVISION_VERSION SETA 52
-3" --predefine="GD32F10X_MD SETA 1" --list=.\listings\startup_gd32f10x_md.lst .
-.\..\Libraries\GD32F10x_Firmware_Library\Firmware\startup_gd32f10x_md.s
+-I.\RTE\_RT-Thread -Id:\Keil_v5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.0\Device\I
+nclude -Id:\Keil_v5\ARM\CMSIS\Include -Id:\Keil_v5\ARM\PACK\GigaDevice\GD32F10x
+_DFP\2.0.0\Device\GD32F10x\Include --predefine="__UVISION_VERSION SETA 523" --p
+redefine="GD32F10X_MD SETA 1" --predefine="USE_STDPERIPH_DRIVER SETA 1" --list=
+.\listings\startup_gd32f10x_md.lst ..\..\Libraries\GD32F10x_Firmware_Library\Fi
+rmware\startup_gd32f10x_md.s
 
 
 
@@ -1479,4 +1481,4 @@ artup_gd32f10x_md.s
       None
 Comment: __use_two_region_memory unused
 3 symbols
-409 symbols in table
+410 symbols in table
