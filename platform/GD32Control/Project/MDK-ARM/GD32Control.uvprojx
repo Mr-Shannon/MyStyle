@@ -335,7 +335,7 @@
               <MiscControls></MiscControls>
               <Define>GD32F10X_MD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Applications;..\..\Drivers;..\..\Libraries\GD32F10x_Firmware_Library\Firmware\CMSIS;..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\inc;..\..\..\..\include;..\..\..\..\components\drivers\include;..\..\..\..\components\finsh;..\..\..\..\components\CMSIS\Include;..\..\..\..\components\net\lwip-1.4.1\src;..\..\..\..\components\net\lwip-1.4.1\src\arch\include;..\..\..\..\components\net\lwip-1.4.1\src\include;..\..\..\..\components\net\lwip-1.4.1\src\include\ipv4;..\..\..\..\components\net\lwip-1.4.1\src\include\netif;..\..\..\..\components\drivers\spi</IncludePath>
+              <IncludePath>..\..\Application;..\..\Driver;..\..\Library\GD32F10x_Firmware_Library\Firmware\CMSIS;..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\inc;..\..\..\..\include;..\..\..\..\components\drivers\include;..\..\..\..\components\finsh;..\..\..\..\components\CMSIS\Include;..\..\..\..\components\net\lwip-1.4.1\src;..\..\..\..\components\net\lwip-1.4.1\src\arch\include;..\..\..\..\components\net\lwip-1.4.1\src\include;..\..\..\..\components\net\lwip-1.4.1\src\include\ipv4;..\..\..\..\components\net\lwip-1.4.1\src\include\netif;..\..\..\..\components\drivers\spi</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -377,47 +377,42 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Applications</GroupName>
+          <GroupName>Application</GroupName>
           <Files>
             <File>
               <FileName>applications.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Applications\applications.c</FilePath>
+              <FilePath>..\..\Application\applications.c</FilePath>
             </File>
             <File>
               <FileName>startup.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Applications\startup.c</FilePath>
-            </File>
-            <File>
-              <FileName>rtconfig.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\..\Applications\rtconfig.h</FilePath>
+              <FilePath>..\..\Application\startup.c</FilePath>
             </File>
           </Files>
         </Group>
         <Group>
-          <GroupName>Drivers</GroupName>
+          <GroupName>Driver</GroupName>
           <Files>
             <File>
               <FileName>board.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Drivers\board.c</FilePath>
+              <FilePath>..\..\Driver\board.c</FilePath>
             </File>
             <File>
               <FileName>led.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Drivers\led.c</FilePath>
-            </File>
-            <File>
-              <FileName>usart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Drivers\usart.c</FilePath>
+              <FilePath>..\..\Driver\led.c</FilePath>
             </File>
             <File>
               <FileName>spi_hw.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Drivers\spi_hw.c</FilePath>
+              <FilePath>..\..\Driver\spi_hw.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Driver\usart.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -425,129 +420,129 @@
           <GroupName>GD32F10x_Firmware_Library</GroupName>
           <Files>
             <File>
-              <FileName>startup_gd32f10x_md.s</FileName>
-              <FileType>2</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\startup_gd32f10x_md.s</FilePath>
-            </File>
-            <File>
               <FileName>system_gd32f10x.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\CMSIS\system_gd32f10x.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\CMSIS\system_gd32f10x.c</FilePath>
+            </File>
+            <File>
+              <FileName>startup_gd32f10x_md.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\startup_gd32f10x_md.s</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_adc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_adc.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_adc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_bkp.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_bkp.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_bkp.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_can.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_can.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_can.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_crc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_crc.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_crc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_dac.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dac.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dac.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_dma.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dma.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dma.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_eth.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_eth.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_eth.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_exmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exmc.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exmc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_exti.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exti.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exti.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10X_fmc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10X_fmc.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10X_fmc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_gpio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_gpio.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_gpio.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_i2c.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_i2c.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_i2c.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_iwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_iwdg.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_iwdg.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_mcudbg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_mcudbg.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_mcudbg.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_misc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_misc.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_misc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_pwr.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_pwr.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_pwr.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_rcc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rcc.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rcc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_rtc.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rtc.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rtc.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_sdio.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_sdio.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_sdio.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_spi.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_spi.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_spi.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_timer.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_timer.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_timer.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_usart.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_usart.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_usart.c</FilePath>
             </File>
             <File>
               <FileName>gd32f10x_wwdg.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_wwdg.c</FilePath>
+              <FilePath>..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_wwdg.c</FilePath>
             </File>
           </Files>
         </Group>

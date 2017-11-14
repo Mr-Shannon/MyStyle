@@ -529,8 +529,8 @@ ork --depend=.\objects\startup_gd32f10x_md.d -o.\objects\startup_gd32f10x_md.o
 nclude -Id:\Keil_v5\ARM\CMSIS\Include -Id:\Keil_v5\ARM\PACK\GigaDevice\GD32F10x
 _DFP\2.0.0\Device\GD32F10x\Include --predefine="__UVISION_VERSION SETA 523" --p
 redefine="GD32F10X_MD SETA 1" --predefine="USE_STDPERIPH_DRIVER SETA 1" --list=
-.\listings\startup_gd32f10x_md.lst ..\..\Libraries\GD32F10x_Firmware_Library\Fi
-rmware\startup_gd32f10x_md.s
+.\listings\startup_gd32f10x_md.lst ..\..\Library\GD32F10x_Firmware_Library\Firm
+ware\startup_gd32f10x_md.s
 
 
 
@@ -541,8 +541,8 @@ STACK 00000000
 
 Symbol: STACK
    Definitions
-      At line 20 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 20 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
       None
 Comment: STACK unused
@@ -550,23 +550,23 @@ Stack_Mem 00000000
 
 Symbol: Stack_Mem
    Definitions
-      At line 21 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 21 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
-      At line 291 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
-      At line 293 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 291 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
+      At line 293 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 __initial_sp 00000400
 
 Symbol: __initial_sp
    Definitions
-      At line 22 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 22 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
-      At line 44 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 44 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
 Comment: __initial_sp used once
 3 symbols
 
@@ -579,8 +579,8 @@ HEAP 00000000
 
 Symbol: HEAP
    Definitions
-      At line 29 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 29 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
       None
 Comment: HEAP unused
@@ -588,20 +588,20 @@ Heap_Mem 00000000
 
 Symbol: Heap_Mem
    Definitions
-      At line 31 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 31 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
-      At line 290 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
-      At line 292 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 290 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
+      At line 292 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 __heap_base 00000000
 
 Symbol: __heap_base
    Definitions
-      At line 30 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 30 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
       None
 Comment: __heap_base unused
@@ -609,8 +609,8 @@ __heap_limit 00000200
 
 Symbol: __heap_limit
    Definitions
-      At line 32 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 32 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
       None
 Comment: __heap_limit unused
@@ -625,8 +625,8 @@ RESET 00000000
 
 Symbol: RESET
    Definitions
-      At line 39 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 39 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
       None
 Comment: RESET unused
@@ -634,25 +634,25 @@ __Vectors 00000000
 
 Symbol: __Vectors
    Definitions
-      At line 44 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 44 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
-      At line 40 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 116 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 40 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 116 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 __Vectors_End 00000104
 
 Symbol: __Vectors_End
    Definitions
-      At line 114 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 114 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 41 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 116 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 41 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 116 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 3 symbols
 
@@ -665,8 +665,8 @@ Relocatable symbols
 
 Symbol: .text
    Definitions
-      At line 118 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 118 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
       None
 Comment: .text unused
@@ -674,49 +674,49 @@ ADC1_2_IRQHandler 0000001A
 
 Symbol: ADC1_2_IRQHandler
    Definitions
-      At line 242 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 242 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 80 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 196 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 80 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 196 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 BusFault_Handler 0000000E
 
 Symbol: BusFault_Handler
    Definitions
-      At line 147 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 147 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 49 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 148 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 49 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 148 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 CAN1_RX1_IRQHandler 0000001A
 
 Symbol: CAN1_RX1_IRQHandler
    Definitions
-      At line 245 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 245 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 83 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 199 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 83 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 199 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 CAN1_SCE_IRQHandler 0000001A
 
 Symbol: CAN1_SCE_IRQHandler
    Definitions
-      At line 246 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 246 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 84 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 200 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 84 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 200 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DMA1_Channel1_IRQHandler 0000001A
 
@@ -728,61 +728,61 @@ Relocatable symbols
 
 Symbol: DMA1_Channel1_IRQHandler
    Definitions
-      At line 235 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 235 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 73 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 189 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 73 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 189 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DMA1_Channel2_IRQHandler 0000001A
 
 Symbol: DMA1_Channel2_IRQHandler
    Definitions
-      At line 236 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 236 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 74 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 190 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 74 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 190 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DMA1_Channel3_IRQHandler 0000001A
 
 Symbol: DMA1_Channel3_IRQHandler
    Definitions
-      At line 237 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 237 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 75 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 191 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 75 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 191 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DMA1_Channel4_IRQHandler 0000001A
 
 Symbol: DMA1_Channel4_IRQHandler
    Definitions
-      At line 238 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 238 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 76 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 192 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 76 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 192 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DMA1_Channel5_IRQHandler 0000001A
 
 Symbol: DMA1_Channel5_IRQHandler
    Definitions
-      At line 239 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 239 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 77 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 193 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 77 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 193 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DMA1_Channel6_IRQHandler 0000001A
 
@@ -794,44 +794,44 @@ Relocatable symbols
 
 Symbol: DMA1_Channel6_IRQHandler
    Definitions
-      At line 240 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 240 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 78 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 194 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 78 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 194 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DMA1_Channel7_IRQHandler 0000001A
 
 Symbol: DMA1_Channel7_IRQHandler
    Definitions
-      At line 241 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 241 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 79 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 195 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 79 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 195 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 DebugMon_Handler 00000014
 
 Symbol: DebugMon_Handler
    Definitions
-      At line 162 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 162 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 56 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 163 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 56 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 163 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 Default_Handler 0000001A
 
 Symbol: Default_Handler
    Definitions
-      At line 177 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 177 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
       None
 Comment: Default_Handler unused
@@ -839,13 +839,13 @@ EXMC_IRQHandler 0000001A
 
 Symbol: EXMC_IRQHandler
    Definitions
-      At line 267 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 267 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 110 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
-      At line 221 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 110 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
+      At line 221 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 EXTI0_IRQHandler 0000001A
 
@@ -857,61 +857,61 @@ ARM Macro Assembler    Page 4 Alphabetic symbol ordering
 Relocatable symbols
 
    Definitions
-      At line 230 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 230 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 68 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 184 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 68 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 184 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 EXTI15_10_IRQHandler 0000001A
 
 Symbol: EXTI15_10_IRQHandler
    Definitions
-      At line 264 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 264 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 102 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
-      At line 218 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 102 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
+      At line 218 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 EXTI1_IRQHandler 0000001A
 
 Symbol: EXTI1_IRQHandler
    Definitions
-      At line 231 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 231 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 69 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 185 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 69 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 185 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 EXTI2_IRQHandler 0000001A
 
 Symbol: EXTI2_IRQHandler
    Definitions
-      At line 232 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 232 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 70 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 186 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 70 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 186 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 EXTI3_IRQHandler 0000001A
 
 Symbol: EXTI3_IRQHandler
    Definitions
-      At line 233 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 233 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 71 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 187 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 71 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 187 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 EXTI4_IRQHandler 0000001A
 
@@ -923,61 +923,61 @@ Relocatable symbols
 
 Symbol: EXTI4_IRQHandler
    Definitions
-      At line 234 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 234 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 72 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 188 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 72 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 188 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 EXTI9_5_IRQHandler 0000001A
 
 Symbol: EXTI9_5_IRQHandler
    Definitions
-      At line 247 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 247 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 85 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 201 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 85 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 201 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 FMC_IRQHandler 0000001A
 
 Symbol: FMC_IRQHandler
    Definitions
-      At line 228 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 228 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 66 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 182 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 66 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 182 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 HardFault_Handler 0000000A
 
 Symbol: HardFault_Handler
    Definitions
-      At line 137 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 137 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 47 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 138 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 47 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 138 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 I2C1_ER_IRQHandler 0000001A
 
 Symbol: I2C1_ER_IRQHandler
    Definitions
-      At line 256 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 256 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 94 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 210 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 94 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 210 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 I2C1_EV_IRQHandler 0000001A
 
@@ -989,61 +989,61 @@ Relocatable symbols
 
 Symbol: I2C1_EV_IRQHandler
    Definitions
-      At line 255 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 255 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 93 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 209 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 93 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 209 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 I2C2_ER_IRQHandler 0000001A
 
 Symbol: I2C2_ER_IRQHandler
    Definitions
-      At line 258 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 258 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 96 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 212 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 96 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 212 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 I2C2_EV_IRQHandler 0000001A
 
 Symbol: I2C2_EV_IRQHandler
    Definitions
-      At line 257 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 257 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 95 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 211 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 95 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 211 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 LVD_IRQHandler 0000001A
 
 Symbol: LVD_IRQHandler
    Definitions
-      At line 225 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 225 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 63 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 179 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 63 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 179 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 MemManage_Handler 0000000C
 
 Symbol: MemManage_Handler
    Definitions
-      At line 142 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 142 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 48 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 143 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 48 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 143 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 
 
@@ -1055,61 +1055,61 @@ NMI_Handler 00000008
 
 Symbol: NMI_Handler
    Definitions
-      At line 132 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 132 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 46 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 133 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 46 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 133 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 PendSV_Handler 00000016
 
 Symbol: PendSV_Handler
    Definitions
-      At line 167 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 167 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 58 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 168 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 58 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 168 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 RCC_IRQHandler 0000001A
 
 Symbol: RCC_IRQHandler
    Definitions
-      At line 229 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 229 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 67 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 183 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 67 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 183 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 RTCAlarm_IRQHandler 0000001A
 
 Symbol: RTCAlarm_IRQHandler
    Definitions
-      At line 265 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 265 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 103 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
-      At line 219 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 103 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
+      At line 219 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 RTC_IRQHandler 0000001A
 
 Symbol: RTC_IRQHandler
    Definitions
-      At line 227 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 227 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 65 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 181 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 65 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 181 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 
 
@@ -1121,254 +1121,254 @@ Reset_Handler 00000000
 
 Symbol: Reset_Handler
    Definitions
-      At line 121 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 121 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 45 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 122 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 45 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 122 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 SPI1_IRQHandler 0000001A
 
 Symbol: SPI1_IRQHandler
    Definitions
-      At line 259 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 259 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 97 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 213 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 97 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 213 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 SPI2_IRQHandler 0000001A
 
 Symbol: SPI2_IRQHandler
    Definitions
-      At line 260 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 260 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 98 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 214 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 98 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 214 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 SVC_Handler 00000012
 
 Symbol: SVC_Handler
    Definitions
-      At line 157 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 157 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 55 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 158 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 55 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 158 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 SysTick_Handler 00000018
 
 Symbol: SysTick_Handler
    Definitions
-      At line 172 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 172 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 59 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 173 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
+      At line 59 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 173 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
 
 
 
 ARM Macro Assembler    Page 9 Alphabetic symbol ordering
 Relocatable symbols
 
-artup_gd32f10x_md.s
+tup_gd32f10x_md.s
 
 TAMPER_IRQHandler 0000001A
 
 Symbol: TAMPER_IRQHandler
    Definitions
-      At line 226 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 226 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 64 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 180 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 64 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 180 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 TIMER1_BRK_IRQHandler 0000001A
 
 Symbol: TIMER1_BRK_IRQHandler
    Definitions
-      At line 248 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 248 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 86 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 202 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 86 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 202 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 TIMER1_CC_IRQHandler 0000001A
 
 Symbol: TIMER1_CC_IRQHandler
    Definitions
-      At line 251 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 251 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 89 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 205 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 89 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 205 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 TIMER1_TRG_COM_IRQHandler 0000001A
 
 Symbol: TIMER1_TRG_COM_IRQHandler
    Definitions
-      At line 250 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 250 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 88 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 204 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 88 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 204 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 TIMER1_UP_IRQHandler 0000001A
 
 Symbol: TIMER1_UP_IRQHandler
    Definitions
-      At line 249 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 249 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 87 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 87 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
 
 
 
 ARM Macro Assembler    Page 10 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 203 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 203 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 TIMER2_IRQHandler 0000001A
 
 Symbol: TIMER2_IRQHandler
    Definitions
-      At line 252 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 252 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 90 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 206 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 90 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 206 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 TIMER3_IRQHandler 0000001A
 
 Symbol: TIMER3_IRQHandler
    Definitions
-      At line 253 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 253 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 91 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 207 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 91 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 207 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 TIMER4_IRQHandler 0000001A
 
 Symbol: TIMER4_IRQHandler
    Definitions
-      At line 254 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 254 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 92 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 208 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 92 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 208 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 USART1_IRQHandler 0000001A
 
 Symbol: USART1_IRQHandler
    Definitions
-      At line 261 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 261 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 99 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 215 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 99 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 215 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 USART2_IRQHandler 0000001A
 
 Symbol: USART2_IRQHandler
    Definitions
-      At line 262 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 262 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 100 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
+      At line 100 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
 
 
 
 ARM Macro Assembler    Page 11 Alphabetic symbol ordering
 Relocatable symbols
 
-artup_gd32f10x_md.s
-      At line 216 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+tup_gd32f10x_md.s
+      At line 216 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 USART3_IRQHandler 0000001A
 
 Symbol: USART3_IRQHandler
    Definitions
-      At line 263 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 263 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 101 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
-      At line 217 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 101 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
+      At line 217 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 USBWakeUp_IRQHandler 0000001A
 
 Symbol: USBWakeUp_IRQHandler
    Definitions
-      At line 266 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 266 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 104 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
-      At line 220 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 104 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
+      At line 220 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 USB_HP_CAN1_TX_IRQHandler 0000001A
 
 Symbol: USB_HP_CAN1_TX_IRQHandler
    Definitions
-      At line 243 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 243 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 81 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 197 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 81 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 197 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 USB_LP_CAN1_RX0_IRQHandler 0000001A
 
 Symbol: USB_LP_CAN1_RX0_IRQHandler
    Definitions
-      At line 244 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 244 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 82 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 198 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 82 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 198 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 UsageFault_Handler 00000010
 
 Symbol: UsageFault_Handler
    Definitions
-      At line 152 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 152 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
 
 
@@ -1376,32 +1376,32 @@ artup_gd32f10x_md.s
 ARM Macro Assembler    Page 12 Alphabetic symbol ordering
 Relocatable symbols
 
-      At line 50 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 153 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 50 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 153 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 WWDG_IRQHandler 0000001A
 
 Symbol: WWDG_IRQHandler
    Definitions
-      At line 224 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 224 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 62 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 178 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 62 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 178 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 __user_initial_stackheap 0000001C
 
 Symbol: __user_initial_stackheap
    Definitions
-      At line 288 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 288 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 286 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 286 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 Comment: __user_initial_stackheap used once
 57 symbols
 
@@ -1414,35 +1414,35 @@ Heap_Size 00000200
 
 Symbol: Heap_Size
    Definitions
-      At line 27 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 27 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
-      At line 31 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 292 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 31 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 292 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 Stack_Size 00000400
 
 Symbol: Stack_Size
    Definitions
-      At line 18 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 18 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
    Uses
-      At line 21 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
-      At line 291 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 21 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
+      At line 291 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 
 __Vectors_Size 00000104
 
 Symbol: __Vectors_Size
    Definitions
-      At line 116 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 116 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 42 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\sta
-rtup_gd32f10x_md.s
+      At line 42 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\start
+up_gd32f10x_md.s
 Comment: __Vectors_Size used once
 3 symbols
 
@@ -1455,28 +1455,28 @@ SystemInit 00000000
 
 Symbol: SystemInit
    Definitions
-      At line 124 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 124 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 125 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 125 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 Comment: SystemInit used once
 __main 00000000
 
 Symbol: __main
    Definitions
-      At line 123 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 123 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
-      At line 127 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 127 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
 Comment: __main used once
 __use_two_region_memory 00000000
 
 Symbol: __use_two_region_memory
    Definitions
-      At line 285 in file ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\st
-artup_gd32f10x_md.s
+      At line 285 in file ..\..\Library\GD32F10x_Firmware_Library\Firmware\star
+tup_gd32f10x_md.s
    Uses
       None
 Comment: __use_two_region_memory unused

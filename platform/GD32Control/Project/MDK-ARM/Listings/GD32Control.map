@@ -83,6 +83,30 @@ Section Cross References
     led.o(FSymTab) refers to led.o(.rodata.name) for __fsym_led_name
     led.o(FSymTab) refers to led.o(i.led) for led
     led.o(FSymTab) refers to led.o(i.rtt_main) for rtt_main
+    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_ParaInit) for SPI_ParaInit
+    spi_hw.o(i.gd32_configure) refers to spi_hw.o(i.get_spi_BaudRatePrescaler) for get_spi_BaudRatePrescaler
+    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_I2S_DeInit) for SPI_I2S_DeInit
+    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_Init) for SPI_Init
+    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_Enable) for SPI_Enable
+    spi_hw.o(i.gd32_spi_register) refers to gd32f10x_rcc.o(i.RCC_APB2PeriphClock_Enable) for RCC_APB2PeriphClock_Enable
+    spi_hw.o(i.gd32_spi_register) refers to gd32f10x_rcc.o(i.RCC_APB1PeriphClock_Enable) for RCC_APB1PeriphClock_Enable
+    spi_hw.o(i.gd32_spi_register) refers to spi_core.o(i.rt_spi_bus_register) for rt_spi_bus_register
+    spi_hw.o(i.gd32_spi_register) refers to spi_hw.o(.data) for gd32_spi_ops
+    spi_hw.o(i.gd32_xfer) refers to gd32f10x_gpio.o(i.GPIO_ResetBits) for GPIO_ResetBits
+    spi_hw.o(i.gd32_xfer) refers to gd32f10x_spi.o(i.SPI_I2S_GetBitState) for SPI_I2S_GetBitState
+    spi_hw.o(i.gd32_xfer) refers to gd32f10x_spi.o(i.SPI_I2S_SendData) for SPI_I2S_SendData
+    spi_hw.o(i.gd32_xfer) refers to gd32f10x_spi.o(i.SPI_I2S_ReceiveData) for SPI_I2S_ReceiveData
+    spi_hw.o(i.gd32_xfer) refers to gd32f10x_gpio.o(i.GPIO_SetBits) for GPIO_SetBits
+    spi_hw.o(i.get_spi_BaudRatePrescaler) refers to system_gd32f10x.o(.data) for SystemCoreClock
+    spi_hw.o(i.rt_hw_spi_init) refers to gd32f10x_rcc.o(i.RCC_APB2PeriphClock_Enable) for RCC_APB2PeriphClock_Enable
+    spi_hw.o(i.rt_hw_spi_init) refers to gd32f10x_gpio.o(i.GPIO_Init) for GPIO_Init
+    spi_hw.o(i.rt_hw_spi_init) refers to spi_hw.o(i.gd32_spi_register) for gd32_spi_register
+    spi_hw.o(i.rt_hw_spi_init) refers to gd32f10x_gpio.o(i.GPIO_SetBits) for GPIO_SetBits
+    spi_hw.o(i.rt_hw_spi_init) refers to spi_core.o(i.rt_spi_bus_attach_device) for rt_spi_bus_attach_device
+    spi_hw.o(i.rt_hw_spi_init) refers to spi_hw.o(.bss) for gd32_spi
+    spi_hw.o(i.rt_hw_spi_init) refers to spi_hw.o(.data) for spi_cs
+    spi_hw.o(.data) refers to spi_hw.o(i.gd32_configure) for gd32_configure
+    spi_hw.o(.data) refers to spi_hw.o(i.gd32_xfer) for gd32_xfer
     usart.o(i.DMA1_Channel3_IRQHandler) refers to irq.o(i.rt_interrupt_enter) for rt_interrupt_enter
     usart.o(i.DMA1_Channel3_IRQHandler) refers to usart.o(i.dma_rx_done_isr) for dma_rx_done_isr
     usart.o(i.DMA1_Channel3_IRQHandler) refers to irq.o(i.rt_interrupt_leave) for rt_interrupt_leave
@@ -161,30 +185,9 @@ Section Cross References
     usart.o(.constdata) refers to usart.o(i.gd32_control) for gd32_control
     usart.o(.constdata) refers to usart.o(i.gd32_putc) for gd32_putc
     usart.o(.constdata) refers to usart.o(i.gd32_getc) for gd32_getc
-    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_ParaInit) for SPI_ParaInit
-    spi_hw.o(i.gd32_configure) refers to spi_hw.o(i.get_spi_BaudRatePrescaler) for get_spi_BaudRatePrescaler
-    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_I2S_DeInit) for SPI_I2S_DeInit
-    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_Init) for SPI_Init
-    spi_hw.o(i.gd32_configure) refers to gd32f10x_spi.o(i.SPI_Enable) for SPI_Enable
-    spi_hw.o(i.gd32_spi_register) refers to gd32f10x_rcc.o(i.RCC_APB2PeriphClock_Enable) for RCC_APB2PeriphClock_Enable
-    spi_hw.o(i.gd32_spi_register) refers to gd32f10x_rcc.o(i.RCC_APB1PeriphClock_Enable) for RCC_APB1PeriphClock_Enable
-    spi_hw.o(i.gd32_spi_register) refers to spi_core.o(i.rt_spi_bus_register) for rt_spi_bus_register
-    spi_hw.o(i.gd32_spi_register) refers to spi_hw.o(.data) for gd32_spi_ops
-    spi_hw.o(i.gd32_xfer) refers to gd32f10x_gpio.o(i.GPIO_ResetBits) for GPIO_ResetBits
-    spi_hw.o(i.gd32_xfer) refers to gd32f10x_spi.o(i.SPI_I2S_GetBitState) for SPI_I2S_GetBitState
-    spi_hw.o(i.gd32_xfer) refers to gd32f10x_spi.o(i.SPI_I2S_SendData) for SPI_I2S_SendData
-    spi_hw.o(i.gd32_xfer) refers to gd32f10x_spi.o(i.SPI_I2S_ReceiveData) for SPI_I2S_ReceiveData
-    spi_hw.o(i.gd32_xfer) refers to gd32f10x_gpio.o(i.GPIO_SetBits) for GPIO_SetBits
-    spi_hw.o(i.get_spi_BaudRatePrescaler) refers to system_gd32f10x.o(.data) for SystemCoreClock
-    spi_hw.o(i.rt_hw_spi_init) refers to gd32f10x_rcc.o(i.RCC_APB2PeriphClock_Enable) for RCC_APB2PeriphClock_Enable
-    spi_hw.o(i.rt_hw_spi_init) refers to gd32f10x_gpio.o(i.GPIO_Init) for GPIO_Init
-    spi_hw.o(i.rt_hw_spi_init) refers to spi_hw.o(i.gd32_spi_register) for gd32_spi_register
-    spi_hw.o(i.rt_hw_spi_init) refers to gd32f10x_gpio.o(i.GPIO_SetBits) for GPIO_SetBits
-    spi_hw.o(i.rt_hw_spi_init) refers to spi_core.o(i.rt_spi_bus_attach_device) for rt_spi_bus_attach_device
-    spi_hw.o(i.rt_hw_spi_init) refers to spi_hw.o(.bss) for gd32_spi
-    spi_hw.o(i.rt_hw_spi_init) refers to spi_hw.o(.data) for spi_cs
-    spi_hw.o(.data) refers to spi_hw.o(i.gd32_configure) for gd32_configure
-    spi_hw.o(.data) refers to spi_hw.o(i.gd32_xfer) for gd32_xfer
+    system_gd32f10x.o(i.SetSysClock) refers to system_gd32f10x.o(i.SetSysClockTo108) for SetSysClockTo108
+    system_gd32f10x.o(i.SystemCoreClockUpdate) refers to system_gd32f10x.o(.data) for SystemCoreClock
+    system_gd32f10x.o(i.SystemInit) refers to system_gd32f10x.o(i.SetSysClock) for SetSysClock
     startup_gd32f10x_md.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
     startup_gd32f10x_md.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
     startup_gd32f10x_md.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
@@ -203,9 +206,6 @@ Section Cross References
     startup_gd32f10x_md.o(.text) refers to __main.o(!!!main) for __main
     startup_gd32f10x_md.o(.text) refers to startup_gd32f10x_md.o(HEAP) for Heap_Mem
     startup_gd32f10x_md.o(.text) refers to startup_gd32f10x_md.o(STACK) for Stack_Mem
-    system_gd32f10x.o(i.SetSysClock) refers to system_gd32f10x.o(i.SetSysClockTo108) for SetSysClockTo108
-    system_gd32f10x.o(i.SystemCoreClockUpdate) refers to system_gd32f10x.o(.data) for SystemCoreClock
-    system_gd32f10x.o(i.SystemInit) refers to system_gd32f10x.o(i.SetSysClock) for SetSysClock
     gd32f10x_adc.o(i.ADC_DeInit) refers to gd32f10x_rcc.o(i.RCC_APB2PeriphReset_Enable) for RCC_APB2PeriphReset_Enable
     gd32f10x_bkp.o(i.BKP_DeInit) refers to gd32f10x_rcc.o(i.RCC_BackupReset_Enable) for RCC_BackupReset_Enable
     gd32f10x_can.o(i.CAN_DeInit) refers to gd32f10x_rcc.o(i.RCC_APB1PeriphReset_Enable) for RCC_APB1PeriphReset_Enable
@@ -3252,10 +3252,10 @@ Removing Unused input sections from the image.
     Removing board.o(.revsh_text), (4 bytes).
     Removing led.o(.rev16_text), (4 bytes).
     Removing led.o(.revsh_text), (4 bytes).
-    Removing usart.o(.rev16_text), (4 bytes).
-    Removing usart.o(.revsh_text), (4 bytes).
     Removing spi_hw.o(.rev16_text), (4 bytes).
     Removing spi_hw.o(.revsh_text), (4 bytes).
+    Removing usart.o(.rev16_text), (4 bytes).
+    Removing usart.o(.revsh_text), (4 bytes).
     Removing system_gd32f10x.o(.rev16_text), (4 bytes).
     Removing system_gd32f10x.o(.revsh_text), (4 bytes).
     Removing system_gd32f10x.o(i.SystemCoreClockUpdate), (184 bytes).
@@ -4066,73 +4066,73 @@ Image Symbol Table
 
     Symbol Name                              Value     Ov Type        Size  Object(Section)
 
-    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit1.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit3.o ABSOLUTE
     ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit2.o ABSOLUTE
     ../clib/angel/boardlib.s                 0x00000000   Number         0  boardshut.o ABSOLUTE
-    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit3.o ABSOLUTE
+    ../clib/angel/boardlib.s                 0x00000000   Number         0  boardinit1.o ABSOLUTE
     ../clib/angel/dczerorl2.s                0x00000000   Number         0  __dczerorl2.o ABSOLUTE
     ../clib/angel/handlers.s                 0x00000000   Number         0  __scatter_zi.o ABSOLUTE
     ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit.o ABSOLUTE
-    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry4.o ABSOLUTE
-    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry2.o ABSOLUTE
     ../clib/angel/kernel.s                   0x00000000   Number         0  rtexit2.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry4.o ABSOLUTE
     ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry.o ABSOLUTE
-    ../clib/angel/rt.s                       0x00000000   Number         0  rt_ctype_table.o ABSOLUTE
-    ../clib/angel/rt.s                       0x00000000   Number         0  rt_raise.o ABSOLUTE
-    ../clib/angel/rt.s                       0x00000000   Number         0  rt_errno_addr_intlibspace.o ABSOLUTE
-    ../clib/angel/rt.s                       0x00000000   Number         0  rt_errno_addr.o ABSOLUTE
-    ../clib/angel/rt.s                       0x00000000   Number         0  rt_locale_intlibspace.o ABSOLUTE
+    ../clib/angel/kernel.s                   0x00000000   Number         0  __rtentry2.o ABSOLUTE
     ../clib/angel/rt.s                       0x00000000   Number         0  rt_locale.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_locale_intlibspace.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_ctype_table.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_errno_addr_intlibspace.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_raise.o ABSOLUTE
+    ../clib/angel/rt.s                       0x00000000   Number         0  rt_errno_addr.o ABSOLUTE
     ../clib/angel/scatter.s                  0x00000000   Number         0  __scatter.o ABSOLUTE
     ../clib/angel/startup.s                  0x00000000   Number         0  __main.o ABSOLUTE
     ../clib/angel/sys.s                      0x00000000   Number         0  indicate_semi.o ABSOLUTE
+    ../clib/angel/sys.s                      0x00000000   Number         0  libspace.o ABSOLUTE
     ../clib/angel/sys.s                      0x00000000   Number         0  use_no_semi.o ABSOLUTE
     ../clib/angel/sys.s                      0x00000000   Number         0  sys_stackheap_outer.o ABSOLUTE
-    ../clib/angel/sys.s                      0x00000000   Number         0  libspace.o ABSOLUTE
-    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_exit.o ABSOLUTE
     ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_wrch.o ABSOLUTE
     ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_command.o ABSOLUTE
+    ../clib/angel/sysapp.c                   0x00000000   Number         0  sys_exit.o ABSOLUTE
     ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
-    ../clib/armsys.c                         0x00000000   Number         0  no_argv.o ABSOLUTE
     ../clib/armsys.c                         0x00000000   Number         0  _get_argv_nomalloc.o ABSOLUTE
     ../clib/armsys.c                         0x00000000   Number         0  argv_veneer.o ABSOLUTE
+    ../clib/armsys.c                         0x00000000   Number         0  no_argv.o ABSOLUTE
     ../clib/heapalloc.c                      0x00000000   Number         0  hrguard.o ABSOLUTE
     ../clib/heapaux.c                        0x00000000   Number         0  heapauxi.o ABSOLUTE
-    ../clib/libinit.s                        0x00000000   Number         0  libinit2.o ABSOLUTE
     ../clib/libinit.s                        0x00000000   Number         0  libinit.o ABSOLUTE
     ../clib/libinit.s                        0x00000000   Number         0  libshutdown.o ABSOLUTE
     ../clib/libinit.s                        0x00000000   Number         0  libshutdown2.o ABSOLUTE
+    ../clib/libinit.s                        0x00000000   Number         0  libinit2.o ABSOLUTE
     ../clib/locale.s                         0x00000000   Number         0  lc_ctype_c.o ABSOLUTE
-    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr.o ABSOLUTE
     ../clib/memcpset.s                       0x00000000   Number         0  strncpy.o ABSOLUTE
-    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr_w.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr.o ABSOLUTE
     ../clib/memcpset.s                       0x00000000   Number         0  rt_memcpy_w.o ABSOLUTE
+    ../clib/memcpset.s                       0x00000000   Number         0  rt_memclr_w.o ABSOLUTE
     ../clib/memcpset.s                       0x00000000   Number         0  rt_memcpy_v6.o ABSOLUTE
     ../clib/memcpset.s                       0x00000000   Number         0  strcmpv7m.o ABSOLUTE
+    ../clib/scanf.c                          0x00000000   Number         0  _chval.o ABSOLUTE
     ../clib/scanf.c                          0x00000000   Number         0  atoi.o ABSOLUTE
     ../clib/scanf.c                          0x00000000   Number         0  strtol.o ABSOLUTE
     ../clib/scanf.c                          0x00000000   Number         0  _strtoul.o ABSOLUTE
-    ../clib/scanf.c                          0x00000000   Number         0  _chval.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_formal.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  __raise.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_pvfn_inner.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_outer.o ABSOLUTE
-    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_cppl_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_segv_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_other.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_pvfn_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_stak_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_rtred_inner.o ABSOLUTE
     ../clib/signal.c                         0x00000000   Number         0  defsig_fpe_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_outer.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_abrt_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_general.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  __raise.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_inner.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_exit.o ABSOLUTE
+    ../clib/signal.c                         0x00000000   Number         0  defsig_rtmem_formal.o ABSOLUTE
     ../clib/signal.s                         0x00000000   Number         0  defsig.o ABSOLUTE
     ../clib/stdlib.c                         0x00000000   Number         0  exit.o ABSOLUTE
-    ../clib/string.c                         0x00000000   Number         0  strlen.o ABSOLUTE
     ../clib/string.c                         0x00000000   Number         0  memcmp.o ABSOLUTE
-    ../clib/string.c                         0x00000000   Number         0  strcat.o ABSOLUTE
     ../clib/string.c                         0x00000000   Number         0  strcpy.o ABSOLUTE
+    ../clib/string.c                         0x00000000   Number         0  strcat.o ABSOLUTE
+    ../clib/string.c                         0x00000000   Number         0  strlen.o ABSOLUTE
     ../clib/string.c                         0x00000000   Number         0  strncmp.o ABSOLUTE
     ../fplib/fpinit.s                        0x00000000   Number         0  fpinit.o ABSOLUTE
     ..\..\..\..\components\drivers\serial\serial.c 0x00000000   Number         0  serial.o ABSOLUTE
@@ -4211,65 +4211,65 @@ Image Symbol Table
     ..\..\..\..\src\slab.c                   0x00000000   Number         0  slab.o ABSOLUTE
     ..\..\..\..\src\thread.c                 0x00000000   Number         0  thread.o ABSOLUTE
     ..\..\..\..\src\timer.c                  0x00000000   Number         0  timer.o ABSOLUTE
-    ..\..\Applications\applications.c        0x00000000   Number         0  applications.o ABSOLUTE
-    ..\..\Applications\startup.c             0x00000000   Number         0  startup.o ABSOLUTE
-    ..\..\Drivers\board.c                    0x00000000   Number         0  board.o ABSOLUTE
-    ..\..\Drivers\led.c                      0x00000000   Number         0  led.o ABSOLUTE
-    ..\..\Drivers\spi_hw.c                   0x00000000   Number         0  spi_hw.o ABSOLUTE
-    ..\..\Drivers\usart.c                    0x00000000   Number         0  usart.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\CMSIS\system_gd32f10x.c 0x00000000   Number         0  system_gd32f10x.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10X_fmc.c 0x00000000   Number         0  gd32f10x_fmc.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_adc.c 0x00000000   Number         0  gd32f10x_adc.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_bkp.c 0x00000000   Number         0  gd32f10x_bkp.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_can.c 0x00000000   Number         0  gd32f10x_can.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_crc.c 0x00000000   Number         0  gd32f10x_crc.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dac.c 0x00000000   Number         0  gd32f10x_dac.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dma.c 0x00000000   Number         0  gd32f10x_dma.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_eth.c 0x00000000   Number         0  gd32f10x_eth.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exmc.c 0x00000000   Number         0  gd32f10x_exmc.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exti.c 0x00000000   Number         0  gd32f10x_exti.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_gpio.c 0x00000000   Number         0  gd32f10x_gpio.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_i2c.c 0x00000000   Number         0  gd32f10x_i2c.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_iwdg.c 0x00000000   Number         0  gd32f10x_iwdg.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_mcudbg.c 0x00000000   Number         0  gd32f10x_mcudbg.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_misc.c 0x00000000   Number         0  gd32f10x_misc.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_pwr.c 0x00000000   Number         0  gd32f10x_pwr.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rcc.c 0x00000000   Number         0  gd32f10x_rcc.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rtc.c 0x00000000   Number         0  gd32f10x_rtc.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_sdio.c 0x00000000   Number         0  gd32f10x_sdio.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_spi.c 0x00000000   Number         0  gd32f10x_spi.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_timer.c 0x00000000   Number         0  gd32f10x_timer.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_usart.c 0x00000000   Number         0  gd32f10x_usart.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_wwdg.c 0x00000000   Number         0  gd32f10x_wwdg.o ABSOLUTE
-    ..\..\Libraries\GD32F10x_Firmware_Library\Firmware\startup_gd32f10x_md.s 0x00000000   Number         0  startup_gd32f10x_md.o ABSOLUTE
-    ..\\..\\Applications\\applications.c     0x00000000   Number         0  applications.o ABSOLUTE
-    ..\\..\\Applications\\startup.c          0x00000000   Number         0  startup.o ABSOLUTE
-    ..\\..\\Drivers\\board.c                 0x00000000   Number         0  board.o ABSOLUTE
-    ..\\..\\Drivers\\led.c                   0x00000000   Number         0  led.o ABSOLUTE
-    ..\\..\\Drivers\\spi_hw.c                0x00000000   Number         0  spi_hw.o ABSOLUTE
-    ..\\..\\Drivers\\usart.c                 0x00000000   Number         0  usart.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\CMSIS\\system_gd32f10x.c 0x00000000   Number         0  system_gd32f10x.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10X_fmc.c 0x00000000   Number         0  gd32f10x_fmc.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_adc.c 0x00000000   Number         0  gd32f10x_adc.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_bkp.c 0x00000000   Number         0  gd32f10x_bkp.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_can.c 0x00000000   Number         0  gd32f10x_can.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_crc.c 0x00000000   Number         0  gd32f10x_crc.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_dac.c 0x00000000   Number         0  gd32f10x_dac.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_dma.c 0x00000000   Number         0  gd32f10x_dma.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_exmc.c 0x00000000   Number         0  gd32f10x_exmc.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_exti.c 0x00000000   Number         0  gd32f10x_exti.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_gpio.c 0x00000000   Number         0  gd32f10x_gpio.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_i2c.c 0x00000000   Number         0  gd32f10x_i2c.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_iwdg.c 0x00000000   Number         0  gd32f10x_iwdg.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_mcudbg.c 0x00000000   Number         0  gd32f10x_mcudbg.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_misc.c 0x00000000   Number         0  gd32f10x_misc.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_pwr.c 0x00000000   Number         0  gd32f10x_pwr.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_rcc.c 0x00000000   Number         0  gd32f10x_rcc.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_rtc.c 0x00000000   Number         0  gd32f10x_rtc.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_spi.c 0x00000000   Number         0  gd32f10x_spi.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_timer.c 0x00000000   Number         0  gd32f10x_timer.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_usart.c 0x00000000   Number         0  gd32f10x_usart.o ABSOLUTE
-    ..\\..\\Libraries\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_wwdg.c 0x00000000   Number         0  gd32f10x_wwdg.o ABSOLUTE
+    ..\..\Application\applications.c         0x00000000   Number         0  applications.o ABSOLUTE
+    ..\..\Application\startup.c              0x00000000   Number         0  startup.o ABSOLUTE
+    ..\..\Driver\board.c                     0x00000000   Number         0  board.o ABSOLUTE
+    ..\..\Driver\led.c                       0x00000000   Number         0  led.o ABSOLUTE
+    ..\..\Driver\spi_hw.c                    0x00000000   Number         0  spi_hw.o ABSOLUTE
+    ..\..\Driver\usart.c                     0x00000000   Number         0  usart.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\CMSIS\system_gd32f10x.c 0x00000000   Number         0  system_gd32f10x.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10X_fmc.c 0x00000000   Number         0  gd32f10x_fmc.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_adc.c 0x00000000   Number         0  gd32f10x_adc.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_bkp.c 0x00000000   Number         0  gd32f10x_bkp.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_can.c 0x00000000   Number         0  gd32f10x_can.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_crc.c 0x00000000   Number         0  gd32f10x_crc.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dac.c 0x00000000   Number         0  gd32f10x_dac.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_dma.c 0x00000000   Number         0  gd32f10x_dma.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_eth.c 0x00000000   Number         0  gd32f10x_eth.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exmc.c 0x00000000   Number         0  gd32f10x_exmc.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_exti.c 0x00000000   Number         0  gd32f10x_exti.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_gpio.c 0x00000000   Number         0  gd32f10x_gpio.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_i2c.c 0x00000000   Number         0  gd32f10x_i2c.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_iwdg.c 0x00000000   Number         0  gd32f10x_iwdg.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_mcudbg.c 0x00000000   Number         0  gd32f10x_mcudbg.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_misc.c 0x00000000   Number         0  gd32f10x_misc.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_pwr.c 0x00000000   Number         0  gd32f10x_pwr.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rcc.c 0x00000000   Number         0  gd32f10x_rcc.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_rtc.c 0x00000000   Number         0  gd32f10x_rtc.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_sdio.c 0x00000000   Number         0  gd32f10x_sdio.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_spi.c 0x00000000   Number         0  gd32f10x_spi.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_timer.c 0x00000000   Number         0  gd32f10x_timer.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_usart.c 0x00000000   Number         0  gd32f10x_usart.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\Peripherals\src\gd32f10x_wwdg.c 0x00000000   Number         0  gd32f10x_wwdg.o ABSOLUTE
+    ..\..\Library\GD32F10x_Firmware_Library\Firmware\startup_gd32f10x_md.s 0x00000000   Number         0  startup_gd32f10x_md.o ABSOLUTE
+    ..\\..\\Application\\applications.c      0x00000000   Number         0  applications.o ABSOLUTE
+    ..\\..\\Application\\startup.c           0x00000000   Number         0  startup.o ABSOLUTE
+    ..\\..\\Driver\\board.c                  0x00000000   Number         0  board.o ABSOLUTE
+    ..\\..\\Driver\\led.c                    0x00000000   Number         0  led.o ABSOLUTE
+    ..\\..\\Driver\\spi_hw.c                 0x00000000   Number         0  spi_hw.o ABSOLUTE
+    ..\\..\\Driver\\usart.c                  0x00000000   Number         0  usart.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\CMSIS\\system_gd32f10x.c 0x00000000   Number         0  system_gd32f10x.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10X_fmc.c 0x00000000   Number         0  gd32f10x_fmc.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_adc.c 0x00000000   Number         0  gd32f10x_adc.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_bkp.c 0x00000000   Number         0  gd32f10x_bkp.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_can.c 0x00000000   Number         0  gd32f10x_can.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_crc.c 0x00000000   Number         0  gd32f10x_crc.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_dac.c 0x00000000   Number         0  gd32f10x_dac.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_dma.c 0x00000000   Number         0  gd32f10x_dma.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_exmc.c 0x00000000   Number         0  gd32f10x_exmc.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_exti.c 0x00000000   Number         0  gd32f10x_exti.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_gpio.c 0x00000000   Number         0  gd32f10x_gpio.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_i2c.c 0x00000000   Number         0  gd32f10x_i2c.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_iwdg.c 0x00000000   Number         0  gd32f10x_iwdg.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_mcudbg.c 0x00000000   Number         0  gd32f10x_mcudbg.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_misc.c 0x00000000   Number         0  gd32f10x_misc.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_pwr.c 0x00000000   Number         0  gd32f10x_pwr.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_rcc.c 0x00000000   Number         0  gd32f10x_rcc.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_rtc.c 0x00000000   Number         0  gd32f10x_rtc.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_spi.c 0x00000000   Number         0  gd32f10x_spi.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_timer.c 0x00000000   Number         0  gd32f10x_timer.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_usart.c 0x00000000   Number         0  gd32f10x_usart.o ABSOLUTE
+    ..\\..\\Library\\GD32F10x_Firmware_Library\\Firmware\\Peripherals\\src\\gd32f10x_wwdg.c 0x00000000   Number         0  gd32f10x_wwdg.o ABSOLUTE
     dc.s                                     0x00000000   Number         0  dc.o ABSOLUTE
     RESET                                    0x08000000   Section      260  startup_gd32f10x_md.o(RESET)
     !!!main                                  0x08000104   Section        8  __main.o(!!!main)
@@ -4634,10 +4634,10 @@ Image Symbol Table
     i.finsh_vm_run                           0x08007b64   Section        0  finsh_vm.o(i.finsh_vm_run)
     i.free_etharp_q                          0x08007bb8   Section        0  etharp.o(i.free_etharp_q)
     free_etharp_q                            0x08007bb9   Thumb Code   104  etharp.o(i.free_etharp_q)
-    i.gd32_configure                         0x08007c88   Section        0  usart.o(i.gd32_configure)
-    gd32_configure                           0x08007c89   Thumb Code   190  usart.o(i.gd32_configure)
-    i.gd32_configure                         0x08007d70   Section        0  spi_hw.o(i.gd32_configure)
-    gd32_configure                           0x08007d71   Thumb Code   176  spi_hw.o(i.gd32_configure)
+    i.gd32_configure                         0x08007c88   Section        0  spi_hw.o(i.gd32_configure)
+    gd32_configure                           0x08007c89   Thumb Code   176  spi_hw.o(i.gd32_configure)
+    i.gd32_configure                         0x08007d38   Section        0  usart.o(i.gd32_configure)
+    gd32_configure                           0x08007d39   Thumb Code   190  usart.o(i.gd32_configure)
     i.gd32_control                           0x08007e20   Section        0  usart.o(i.gd32_control)
     gd32_control                             0x08007e21   Thumb Code   136  usart.o(i.gd32_control)
     i.gd32_getc                              0x08007ec4   Section        0  usart.o(i.gd32_getc)
@@ -5207,10 +5207,10 @@ Image Symbol Table
     .data                                    0x20000004   Section        9  led.o(.data)
     led_inited                               0x20000004   Data           1  led.o(.data)
     LED_init_flag                            0x2000000c   Data           1  led.o(.data)
-    .data                                    0x20000010   Section       72  usart.o(.data)
-    .data                                    0x20000058   Section       16  spi_hw.o(.data)
-    gd32_spi_ops                             0x20000058   Data           8  spi_hw.o(.data)
-    spi_cs                                   0x20000060   Data           8  spi_hw.o(.data)
+    .data                                    0x20000010   Section       16  spi_hw.o(.data)
+    gd32_spi_ops                             0x20000010   Data           8  spi_hw.o(.data)
+    spi_cs                                   0x20000018   Data           8  spi_hw.o(.data)
+    .data                                    0x20000020   Section       72  usart.o(.data)
     .data                                    0x20000068   Section       20  system_gd32f10x.o(.data)
     .data                                    0x2000007c   Section       24  gd32f10x_rcc.o(.data)
     AHBPrescTable                            0x2000007c   Data          16  gd32f10x_rcc.o(.data)
@@ -5299,10 +5299,10 @@ Image Symbol Table
     led1_thread                              0x200004b0   Data         128  applications.o(.bss)
     led2_stack                               0x20000530   Data         256  applications.o(.bss)
     led2_thread                              0x20000630   Data         128  applications.o(.bss)
-    .bss                                     0x200006b0   Section      252  usart.o(.bss)
-    .bss                                     0x200007ac   Section      188  spi_hw.o(.bss)
-    gd32_spi                                 0x200007ac   Data         112  spi_hw.o(.bss)
-    spi_device                               0x2000081c   Data          76  spi_hw.o(.bss)
+    .bss                                     0x200006b0   Section      188  spi_hw.o(.bss)
+    gd32_spi                                 0x200006b0   Data         112  spi_hw.o(.bss)
+    spi_device                               0x20000720   Data          76  spi_hw.o(.bss)
+    .bss                                     0x2000076c   Section      252  usart.o(.bss)
     .bss                                     0x20000868   Section      384  idle.o(.bss)
     idle                                     0x20000868   Data         128  idle.o(.bss)
     rt_thread_stack                          0x200008e8   Data         256  idle.o(.bss)
@@ -5956,9 +5956,9 @@ Image Symbol Table
     VSymTab$$Limit                           0x08011b04   Number         0  cmd.o(VSymTab)
     __ctype                                  0x08011b11   Data           0  lc_ctype_c.o(locale$$data)
     shannon                                  0x20000008   Data           4  led.o(.data)
-    uart1                                    0x20000010   Data          24  usart.o(.data)
-    uart2                                    0x20000028   Data          24  usart.o(.data)
-    uart3                                    0x20000040   Data          24  usart.o(.data)
+    uart1                                    0x20000020   Data          24  usart.o(.data)
+    uart2                                    0x20000038   Data          24  usart.o(.data)
+    uart3                                    0x20000050   Data          24  usart.o(.data)
     SystemCoreClock                          0x20000068   Data           4  system_gd32f10x.o(.data)
     AHBPrescTableList                        0x2000006c   Data          16  system_gd32f10x.o(.data)
     rt_interrupt_nest                        0x2000009c   Data           1  irq.o(.data)
@@ -6001,9 +6001,9 @@ Image Symbol Table
     current_header                           0x200002a0   Data           4  ip.o(.data)
     current_iphdr_src                        0x200002a4   Data           4  ip.o(.data)
     current_iphdr_dest                       0x200002a8   Data           4  ip.o(.data)
-    serial1                                  0x200006b0   Data          84  usart.o(.bss)
-    serial2                                  0x20000704   Data          84  usart.o(.bss)
-    serial3                                  0x20000758   Data          84  usart.o(.bss)
+    serial1                                  0x2000076c   Data          84  usart.o(.bss)
+    serial2                                  0x200007c0   Data          84  usart.o(.bss)
+    serial3                                  0x20000814   Data          84  usart.o(.bss)
     rt_thread_priority_table                 0x20000a88   Data         256  scheduler.o(.bss)
     finsh_heap                               0x20000c78   Data         128  finsh_heap.o(.bss)
     global_node_table                        0x20000cf8   Data         320  finsh_node.o(.bss)
@@ -6028,7 +6028,7 @@ Memory Map of the image
 
     Base Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x00000104   Data   RO          530    RESET               startup_gd32f10x_md.o
+    0x08000000   0x00000104   Data   RO          572    RESET               startup_gd32f10x_md.o
     0x08000104   0x00000008   Code   RO         8972  * !!!main             c_w.l(__main.o)
     0x0800010c   0x00000034   Code   RO         9152    !!!scatter          c_w.l(__scatter.o)
     0x08000140   0x0000005a   Code   RO         9150    !!dczerorl2         c_w.l(__dczerorl2.o)
@@ -6077,7 +6077,7 @@ Memory Map of the image
     0x080001e6   0x00000000   Code   RO         9072    .ARM.Collect$$rtexit$$00000002  c_w.l(rtexit2.o)
     0x080001e6   0x00000004   Code   RO         9073    .ARM.Collect$$rtexit$$00000003  c_w.l(rtexit2.o)
     0x080001ea   0x00000006   Code   RO         9074    .ARM.Collect$$rtexit$$00000004  c_w.l(rtexit2.o)
-    0x080001f0   0x00000040   Code   RO          531    .text               startup_gd32f10x_md.o
+    0x080001f0   0x00000040   Code   RO          573    .text               startup_gd32f10x_md.o
     0x08000230   0x000000ec   Code   RO         4691    .text               context_rvds.o
     0x0800031c   0x0000001a   Code   RO         8946    .text               c_w.l(atoi.o)
     0x08000336   0x00000048   Code   RO         8950    .text               c_w.l(strcpy.o)
@@ -6106,11 +6106,11 @@ Memory Map of the image
     0x08000884   0x00000002   Code   RO         9093    .text               c_w.l(use_no_semi.o)
     0x08000886   0x00000000   Code   RO         9095    .text               c_w.l(indicate_semi.o)
     0x08000886   0x00000002   PAD
-    0x08000888   0x00000018   Code   RO          366    i.DMA1_Channel3_IRQHandler  usart.o
-    0x080008a0   0x00000018   Code   RO          367    i.DMA1_Channel5_IRQHandler  usart.o
-    0x080008b8   0x00000018   Code   RO          368    i.DMA1_Channel6_IRQHandler  usart.o
+    0x08000888   0x00000018   Code   RO          410    i.DMA1_Channel3_IRQHandler  usart.o
+    0x080008a0   0x00000018   Code   RO          411    i.DMA1_Channel5_IRQHandler  usart.o
+    0x080008b8   0x00000018   Code   RO          412    i.DMA1_Channel6_IRQHandler  usart.o
     0x080008d0   0x0000001c   Code   RO         1164    i.DMA_ClearBitState  gd32f10x_dma.o
-    0x080008ec   0x000000a6   Code   RO          369    i.DMA_Configuration  usart.o
+    0x080008ec   0x000000a6   Code   RO          413    i.DMA_Configuration  usart.o
     0x08000992   0x00000002   PAD
     0x08000994   0x0000014c   Code   RO         1166    i.DMA_DeInit        gd32f10x_dma.o
     0x08000ae0   0x00000018   Code   RO         1167    i.DMA_Enable        gd32f10x_dma.o
@@ -6121,7 +6121,7 @@ Memory Map of the image
     0x08000b52   0x00000002   PAD
     0x08000b54   0x0000000c   Code   RO         1376    i.EXTI_ClearIntBitState  gd32f10x_exti.o
     0x08000b60   0x00000094   Code   RO         1380    i.EXTI_Init         gd32f10x_exti.o
-    0x08000bf4   0x00000090   Code   RO          370    i.GPIO_Configuration  usart.o
+    0x08000bf4   0x00000090   Code   RO          414    i.GPIO_Configuration  usart.o
     0x08000c84   0x00000098   Code   RO         1622    i.GPIO_EXTILineConfig  gd32f10x_gpio.o
     0x08000d1c   0x00000116   Code   RO         1625    i.GPIO_Init         gd32f10x_gpio.o
     0x08000e32   0x00000002   PAD
@@ -6129,7 +6129,7 @@ Memory Map of the image
     0x08000ec4   0x00000004   Code   RO         1633    i.GPIO_ResetBits    gd32f10x_gpio.o
     0x08000ec8   0x00000004   Code   RO         1634    i.GPIO_SetBits      gd32f10x_gpio.o
     0x08000ecc   0x0000000e   Code   RO          263    i.NVIC_Configuration  board.o
-    0x08000eda   0x00000022   Code   RO          371    i.NVIC_Configuration  usart.o
+    0x08000eda   0x00000022   Code   RO          415    i.NVIC_Configuration  usart.o
     0x08000efc   0x000000cc   Code   RO         2035    i.NVIC_Init         gd32f10x_misc.o
     0x08000fc8   0x00000014   Code   RO         2038    i.NVIC_VectTableSet  gd32f10x_misc.o
     0x08000fdc   0x00000030   Code   RO         5547    i.OP_add_byte       finsh_ops.o
@@ -6190,7 +6190,7 @@ Memory Map of the image
     0x08001c60   0x00000020   Code   RO         2154    i.RCC_APB2PeriphClock_Enable  gd32f10x_rcc.o
     0x08001c80   0x00000020   Code   RO         2155    i.RCC_APB2PeriphReset_Enable  gd32f10x_rcc.o
     0x08001ca0   0x00000018   Code   RO         2159    i.RCC_CK_SYSConfig  gd32f10x_rcc.o
-    0x08001cb8   0x00000034   Code   RO          372    i.RCC_Configuration  usart.o
+    0x08001cb8   0x00000034   Code   RO          416    i.RCC_Configuration  usart.o
     0x08001cec   0x00000054   Code   RO         2162    i.RCC_DeInit        gd32f10x_rcc.o
     0x08001d40   0x00000038   Code   RO         2163    i.RCC_GetBitState   gd32f10x_rcc.o
     0x08001d78   0x00000010   Code   RO         2164    i.RCC_GetCK_SYSSource  gd32f10x_rcc.o
@@ -6206,14 +6206,14 @@ Memory Map of the image
     0x08001fb2   0x00000004   Code   RO         2479    i.SPI_I2S_SendData  gd32f10x_spi.o
     0x08001fb6   0x0000003a   Code   RO         2480    i.SPI_Init          gd32f10x_spi.o
     0x08001ff0   0x00000018   Code   RO         2482    i.SPI_ParaInit      gd32f10x_spi.o
-    0x08002008   0x00000008   Code   RO          537    i.SetSysClock       system_gd32f10x.o
-    0x08002010   0x000000c8   Code   RO          538    i.SetSysClockTo108  system_gd32f10x.o
+    0x08002008   0x00000008   Code   RO          530    i.SetSysClock       system_gd32f10x.o
+    0x08002010   0x000000c8   Code   RO          531    i.SetSysClockTo108  system_gd32f10x.o
     0x080020d8   0x00000010   Code   RO          264    i.SysTick_Handler   board.o
     0x080020e8   0x0000005c   Code   RO          265    i.SystemClock_Config  board.o
-    0x08002144   0x00000058   Code   RO          540    i.SystemInit        system_gd32f10x.o
-    0x0800219c   0x00000018   Code   RO          373    i.USART1_IRQHandler  usart.o
-    0x080021b4   0x00000018   Code   RO          374    i.USART2_IRQHandler  usart.o
-    0x080021cc   0x00000018   Code   RO          375    i.USART3_IRQHandler  usart.o
+    0x08002144   0x00000058   Code   RO          533    i.SystemInit        system_gd32f10x.o
+    0x0800219c   0x00000018   Code   RO          417    i.USART1_IRQHandler  usart.o
+    0x080021b4   0x00000018   Code   RO          418    i.USART2_IRQHandler  usart.o
+    0x080021cc   0x00000018   Code   RO          419    i.USART3_IRQHandler  usart.o
     0x080021e4   0x00000014   Code   RO         3172    i.USART_ClearIntBitState  gd32f10x_usart.o
     0x080021f8   0x00000012   Code   RO         3175    i.USART_DMA_Enable  gd32f10x_usart.o
     0x0800220a   0x0000000a   Code   RO         3176    i.USART_DataReceive  gd32f10x_usart.o
@@ -6254,8 +6254,8 @@ Memory Map of the image
     0x08003460   0x00000068   Code   RO         4959    i._spidev_device_write  spi_dev.o
     0x080034c8   0x00000050   Code   RO         5004    i._tx_chain_init    enc28j60.o
     0x08003518   0x000000fc   Code   RO         4637    i.bus_fault_track   cpuport.o
-    0x08003614   0x00000058   Code   RO          376    i.dma_rx_done_isr   usart.o
-    0x0800366c   0x00000052   Code   RO          377    i.dma_uart_rx_idle_isr  usart.o
+    0x08003614   0x00000058   Code   RO          420    i.dma_rx_done_isr   usart.o
+    0x0800366c   0x00000052   Code   RO          421    i.dma_uart_rx_idle_isr  usart.o
     0x080036be   0x0000002e   Code   RO         6860    i.do_netifapi_netif_add  netifapi.o
     0x080036ec   0x000003d4   Code   RO         5005    i.enc28j60          enc28j60.o
     0x08003ac0   0x00000208   Code   RO         5006    i.enc28j60_attach   enc28j60.o
@@ -6335,14 +6335,14 @@ Memory Map of the image
     0x08007b24   0x00000040   Code   RO         6046    i.finsh_var_lookup  finsh_var.o
     0x08007b64   0x00000054   Code   RO         6096    i.finsh_vm_run      finsh_vm.o
     0x08007bb8   0x000000d0   Code   RO         8746    i.free_etharp_q     etharp.o
-    0x08007c88   0x000000e8   Code   RO          378    i.gd32_configure    usart.o
-    0x08007d70   0x000000b0   Code   RO          486    i.gd32_configure    spi_hw.o
-    0x08007e20   0x000000a4   Code   RO          379    i.gd32_control      usart.o
-    0x08007ec4   0x00000044   Code   RO          380    i.gd32_getc         usart.o
-    0x08007f08   0x00000044   Code   RO          381    i.gd32_putc         usart.o
-    0x08007f4c   0x00000068   Code   RO          487    i.gd32_spi_register  spi_hw.o
-    0x08007fb4   0x00000100   Code   RO          488    i.gd32_xfer         spi_hw.o
-    0x080080b4   0x0000007c   Code   RO          489    i.get_spi_BaudRatePrescaler  spi_hw.o
+    0x08007c88   0x000000b0   Code   RO          366    i.gd32_configure    spi_hw.o
+    0x08007d38   0x000000e8   Code   RO          422    i.gd32_configure    usart.o
+    0x08007e20   0x000000a4   Code   RO          423    i.gd32_control      usart.o
+    0x08007ec4   0x00000044   Code   RO          424    i.gd32_getc         usart.o
+    0x08007f08   0x00000044   Code   RO          425    i.gd32_putc         usart.o
+    0x08007f4c   0x00000068   Code   RO          367    i.gd32_spi_register  spi_hw.o
+    0x08007fb4   0x00000100   Code   RO          368    i.gd32_xfer         spi_hw.o
+    0x080080b4   0x0000007c   Code   RO          369    i.get_spi_BaudRatePrescaler  spi_hw.o
     0x08008130   0x00000080   Code   RO         4638    i.hard_fault_track  cpuport.o
     0x080081b0   0x00000020   Code   RO         5153    i.hello             cmd.o
     0x080081d0   0x000000a2   Code   RO         8597    i.inet_chksum_pseudo  inet_chksum.o
@@ -6463,9 +6463,9 @@ Memory Map of the image
     0x0800b8f4   0x00000208   Code   RO         4642    i.rt_hw_hard_fault_exception  cpuport.o
     0x0800bafc   0x000001c4   Code   RO         4795    i.rt_hw_serial_isr  serial.o
     0x0800bcc0   0x0000007c   Code   RO         4796    i.rt_hw_serial_register  serial.o
-    0x0800bd3c   0x0000009c   Code   RO          490    i.rt_hw_spi_init    spi_hw.o
+    0x0800bd3c   0x0000009c   Code   RO          370    i.rt_hw_spi_init    spi_hw.o
     0x0800bdd8   0x0000004c   Code   RO         4643    i.rt_hw_stack_init  cpuport.o
-    0x0800be24   0x000000d0   Code   RO          382    i.rt_hw_usart_init  usart.o
+    0x0800be24   0x000000d0   Code   RO          426    i.rt_hw_usart_init  usart.o
     0x0800bef4   0x000000b8   Code   RO            7    i.rt_init_thread_entry  applications.o
     0x0800bfac   0x00000024   Code   RO         3846    i.rt_interrupt_enter  irq.o
     0x0800bfd0   0x0000000c   Code   RO         3847    i.rt_interrupt_get_nest  irq.o
@@ -6622,12 +6622,12 @@ Memory Map of the image
     0x080100e4   0x0000019e   Code   RO         5969    i.token_run         finsh_token.o
     0x08010282   0x00000098   Code   RO         5970    i.token_spec_number  finsh_token.o
     0x0801031a   0x00000022   Code   RO         5971    i.token_trim_space  finsh_token.o
-    0x0801033c   0x00000080   Code   RO          383    i.uart_isr          usart.o
+    0x0801033c   0x00000080   Code   RO          427    i.uart_isr          usart.o
     0x080103bc   0x000000e8   Code   RO         4644    i.usage_fault_track  cpuport.o
     0x080104a4   0x0000000a   Code   RO         5172    i.version           cmd.o
     0x080104ae   0x00000002   PAD
     0x080104b0   0x0000002c   Code   RO         9014    locale$$code        c_w.l(lc_ctype_c.o)
-    0x080104dc   0x00000058   Data   RO          385    .constdata          usart.o
+    0x080104dc   0x00000058   Data   RO          429    .constdata          usart.o
     0x08010534   0x000000a8   Data   RO         3462    .constdata          device.o
     0x080105dc   0x00000016   Data   RO         3536    .constdata          idle.o
     0x080105f2   0x000001d7   Data   RO         3617    .constdata          ipc.o
@@ -6691,9 +6691,9 @@ Memory Map of the image
     0x20000000   0x00000004   Data   RW            9    .data               applications.o
     0x20000004   0x00000009   Data   RW          322    .data               led.o
     0x2000000d   0x00000003   PAD
-    0x20000010   0x00000048   Data   RW          386    .data               usart.o
-    0x20000058   0x00000010   Data   RW          492    .data               spi_hw.o
-    0x20000068   0x00000014   Data   RW          541    .data               system_gd32f10x.o
+    0x20000010   0x00000010   Data   RW          372    .data               spi_hw.o
+    0x20000020   0x00000048   Data   RW          430    .data               usart.o
+    0x20000068   0x00000014   Data   RW          534    .data               system_gd32f10x.o
     0x2000007c   0x00000018   Data   RW         2180    .data               gd32f10x_rcc.o
     0x20000094   0x00000004   Data   RW         3411    .data               clock.o
     0x20000098   0x00000004   Data   RW         3537    .data               idle.o
@@ -6728,8 +6728,8 @@ Memory Map of the image
     0x200002ae   0x00000001   Data   RW         8750    .data               etharp.o
     0x200002af   0x00000001   PAD
     0x200002b0   0x00000400   Zero   RW            8    .bss                applications.o
-    0x200006b0   0x000000fc   Zero   RW          384    .bss                usart.o
-    0x200007ac   0x000000bc   Zero   RW          491    .bss                spi_hw.o
+    0x200006b0   0x000000bc   Zero   RW          371    .bss                spi_hw.o
+    0x2000076c   0x000000fc   Zero   RW          428    .bss                usart.o
     0x20000868   0x00000180   Zero   RW         3535    .bss                idle.o
     0x200009e8   0x00000080   Zero   RW         3903    .bss                kservice.o
     0x20000a68   0x00000020   Zero   RW         4075    .bss                mem.o
@@ -6745,8 +6745,8 @@ Memory Map of the image
     0x20001a44   0x000005b0   Zero   RW         8842    .bss                ethernetif.o
     0x20001ff4   0x00000060   Zero   RW         8983    .bss                c_w.l(libspace.o)
     0x20002054   0x00000004   PAD
-    0x20002058   0x00000200   Zero   RW          529    HEAP                startup_gd32f10x_md.o
-    0x20002258   0x00000400   Zero   RW          528    STACK               startup_gd32f10x_md.o
+    0x20002058   0x00000200   Zero   RW          571    HEAP                startup_gd32f10x_md.o
+    0x20002258   0x00000400   Zero   RW          570    STACK               startup_gd32f10x_md.o
 
 
 ==============================================================================
@@ -6756,77 +6756,77 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-         0          0          0          0          0       6935   api_lib.o
-         0          0          0          0          0        652   api_msg.o
-       532        122          0          4       1024     295920   applications.o
-       246         28          0          0          0      29230   board.o
-        60         12          0          4          0       1117   clock.o
-      3502       1418       1555          4          0      23639   cmd.o
-       508        176         57          0          0       4323   completion.o
-       236         24          0          0          0        768   context_rvds.o
-      1440        724          0         16          0       5234   cpuport.o
-      1040        216         75          0          0       8199   dataqueue.o
-        62          0          0          0          0       2228   def.o
-       896        280        168          0          0       7954   device.o
-      4492       1148         57         12        240      25230   enc28j60.o
-      2964        914         80          1        200      11167   etharp.o
-       504        116         87          0       1456       8180   ethernetif.o
-      6170        156          0          8          0      11830   finsh_compiler.o
-        56         22        243         64          0       2719   finsh_error.o
-       552         42          0          8        128       5895   finsh_heap.o
-        64          6          0          0          0       2096   finsh_init.o
-       392          8          0          0        320       5930   finsh_node.o
-      3034        294        196          0          0      25410   finsh_ops.o
-      2428         32          0          0          0      16423   finsh_parser.o
-      1644         16        126          0          0      10326   finsh_token.o
-       296         32          0          4        192       8074   finsh_var.o
-       176         36          0         12        384       7295   finsh_vm.o
-       474         18          0          0          0       6431   gd32f10x_dma.o
-       160         12          0          0          0       1964   gd32f10x_exti.o
-       582         12          0          0          0       5076   gd32f10x_gpio.o
-       224         20          0          0          0       1944   gd32f10x_misc.o
-       832        130          0         24          0      12028   gd32f10x_rcc.o
-       218         12          0          0          0       5195   gd32f10x_spi.o
-       356          6          0          0          0       6603   gd32f10x_usart.o
-       308         80         22          4        384       3882   idle.o
-       256          0          0          0          0       2401   inet_chksum.o
-         0          0          0          0          0      11476   init.o
-       648        206          0         18          0       6490   ip.o
-        78          0          0          0          0       7118   ip_addr.o
-      3276        820        471          0          0      31717   ipc.o
-        84         18          0          1          0       1938   irq.o
-      2230        242        290         12        128      14237   kservice.o
-       516         74         84          9          0       3780   led.o
-      1824        658        358         32         32       6616   mem.o
-         0          0         28          0          0       1253   memp.o
-       870        160        147          4          0       7965   msh.o
-         0          0          0          0          0       3892   netbuf.o
-         0          0          0          0          0       1036   netdb.o
-       512        104          0          9          0      17078   netif.o
-       114          6          0          0          0       5200   netifapi.o
-       600        186         94        164          0       6953   object.o
-      2388        852          0          1          0       7724   pbuf.o
-       834        254         78         28        256       7230   scheduler.o
-      3284        748        292          4          0      14995   serial.o
-      2422        290         96          4       2305       9722   shell.o
-      1068        170        163          0          0       9190   spi_core.o
-       624        248        129          0          0       6045   spi_dev.o
-       816         64          0         16        188       4441   spi_hw.o
-        70          8          0          0          0       6061   startup.o
-        64         26        260          0       1536        876   startup_gd32f10x_md.o
-         0          0          0         16          0       4469   symbol.o
-       660        240        179          6          0      13966   sys_arch.o
-       296         28          0         20          0       3337   system_gd32f10x.o
-       820        256        197         36          0      15587   tcp.o
-         0          0          0         32          0      10187   tcp_in.o
-      1484        352          0          0          0       5392   tcp_out.o
-       260         22          0         12          0      16070   tcpip.o
-      1620        400        170          0          0      13445   thread.o
-      1058        186         92         16          0      10087   timer.o
-      1578        244         88         72        252      33027   usart.o
+         0          0          0          0          0       7071   api_lib.o
+         0          0          0          0          0        676   api_msg.o
+       532        122          0          4       1024     296488   applications.o
+       246         28          0          0          0      29438   board.o
+        60         12          0          4          0       1201   clock.o
+      3502       1418       1555          4          0      24515   cmd.o
+       508        176         57          0          0       4479   completion.o
+       236         24          0          0          0        796   context_rvds.o
+      1440        724          0         16          0       5454   cpuport.o
+      1040        216         75          0          0       8451   dataqueue.o
+        62          0          0          0          0       2340   def.o
+       896        280        168          0          0       8278   device.o
+      4492       1148         57         12        240      25946   enc28j60.o
+      2964        914         80          1        200      11495   etharp.o
+       504        116         87          0       1456       8440   ethernetif.o
+      6170        156          0          8          0      12046   finsh_compiler.o
+        56         22        243         64          0       2883   finsh_error.o
+       552         42          0          8        128       6167   finsh_heap.o
+        64          6          0          0          0       2204   finsh_init.o
+       392          8          0          0        320       6206   finsh_node.o
+      3034        294        196          0          0      26754   finsh_ops.o
+      2428         32          0          0          0      17023   finsh_parser.o
+      1644         16        126          0          0      10730   finsh_token.o
+       296         32          0          4        192       8294   finsh_var.o
+       176         36          0         12        384       7479   finsh_vm.o
+       474         18          0          0          0       6611   gd32f10x_dma.o
+       160         12          0          0          0       2036   gd32f10x_exti.o
+       582         12          0          0          0       5204   gd32f10x_gpio.o
+       224         20          0          0          0       2020   gd32f10x_misc.o
+       832        130          0         24          0      12444   gd32f10x_rcc.o
+       218         12          0          0          0       5367   gd32f10x_spi.o
+       356          6          0          0          0       6827   gd32f10x_usart.o
+       308         80         22          4        384       4074   idle.o
+       256          0          0          0          0       2485   inet_chksum.o
+         0          0          0          0          0      11580   init.o
+       648        206          0         18          0       6646   ip.o
+        78          0          0          0          0       7226   ip_addr.o
+      3276        820        471          0          0      32961   ipc.o
+        84         18          0          1          0       2078   irq.o
+      2230        242        290         12        128      14773   kservice.o
+       516         74         84          9          0       3952   led.o
+      1824        658        358         32         32       6856   mem.o
+         0          0         28          0          0       1305   memp.o
+       870        160        147          4          0       8293   msh.o
+         0          0          0          0          0       3916   netbuf.o
+         0          0          0          0          0       1064   netdb.o
+       512        104          0          9          0      17422   netif.o
+       114          6          0          0          0       5336   netifapi.o
+       600        186         94        164          0       7245   object.o
+      2388        852          0          1          0       7988   pbuf.o
+       834        254         78         28        256       7550   scheduler.o
+      3284        748        292          4          0      15475   serial.o
+      2422        290         96          4       2305      10162   shell.o
+      1068        170        163          0          0       9510   spi_core.o
+       624        248        129          0          0       6293   spi_dev.o
+       816         64          0         16        188       4625   spi_hw.o
+        70          8          0          0          0       6161   startup.o
+        64         26        260          0       1536        904   startup_gd32f10x_md.o
+         0          0          0         16          0       4525   symbol.o
+       660        240        179          6          0      14446   sys_arch.o
+       296         28          0         20          0       3453   system_gd32f10x.o
+       820        256        197         36          0      15907   tcp.o
+         0          0          0         32          0      10299   tcp_in.o
+      1484        352          0          0          0       5552   tcp_out.o
+       260         22          0         12          0      16398   tcpip.o
+      1620        400        170          0          0      13985   thread.o
+      1058        186         92         16          0      10543   timer.o
+      1578        244         88         72        252      33571   usart.o
 
     ----------------------------------------------------------------------
-     64852      12974       5932        688       9028     890898   Object Totals
+     64852      12974       5932        688       9028     909922   Object Totals
          0          0         32          0          0          0   (incl. Generated)
         50          0         18         11          3          0   (incl. Padding)
 
@@ -6893,8 +6893,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     66520      13012       6204        688       9128     866214   Grand Totals
-     66520      13012       6204        208       9128     866214   ELF Image Totals (compressed)
+     66520      13012       6204        688       9128     885238   Grand Totals
+     66520      13012       6204        208       9128     885238   ELF Image Totals (compressed)
      66520      13012       6204        208          0          0   ROM Totals
 
 ==============================================================================
